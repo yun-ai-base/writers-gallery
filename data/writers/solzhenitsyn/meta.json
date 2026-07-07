@@ -1,0 +1,34 @@
+{
+  "id": "solzhenitsyn",
+  "name": "索尔仁尼琴",
+  "nameEn": "Aleksandr Solzhenitsyn",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "20世纪",
+  "birthYear": 1918,
+  "deathYear": 2008,
+  "literaryMovement": "纪实文学 / 道义文学",
+  "influencedBy": [
+    "tolstoy",
+    "dostoevsky",
+    "turgenev"
+  ],
+  "influenced": [
+    "kundera",
+    "milosz",
+    "szymborska"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1970)"
+  ],
+  "summary": "以文学为武器对抗极权主义的道德巨人，《古拉格群岛》揭开了苏联劳改营的全部真相",
+  "tags": [
+    "诺贝尔奖",
+    "古拉格",
+    "极权",
+    "道德",
+    "纪实"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

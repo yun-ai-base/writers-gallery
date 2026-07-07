@@ -1,0 +1,32 @@
+{
+  "id": "lu-yao",
+  "name": "路遥",
+  "nameEn": "Lu Yao",
+  "alias": "王卫国",
+  "nationality": "中国",
+  "era": "当代",
+  "birthYear": 1949,
+  "deathYear": 1992,
+  "literaryMovement": "现实主义",
+  "influencedBy": [
+    "tolstoy",
+    "ostrovsky"
+  ],
+  "influenced": [
+    "mo-yan",
+    "yu-hua"
+  ],
+  "awards": [
+    "茅盾文学奖"
+  ],
+  "summary": "以《平凡的世界》书写中国农村青年的奋斗与命运，当代现实主义文学的丰碑",
+  "tags": [
+    "现实主义",
+    "农村",
+    "奋斗",
+    "平凡",
+    "厚重"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

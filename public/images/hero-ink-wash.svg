@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+  <!-- Ink wash mountain landscape -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f0e8" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#e8dcc8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#d4c8a8" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f0e8" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#f5f0e8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f5f0e8" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="blur2"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="blur3"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="1200" height="400" fill="url(#sky)"/>
+
+  <!-- Far mountains (lightest, most blurred) -->
+  <path d="M0,280 Q150,200 300,250 Q450,180 600,220 Q750,160 900,210 Q1050,170 1200,240 L1200,400 L0,400 Z"
+        fill="#8a8070" opacity="0.12" filter="url(#blur3)"/>
+
+  <!-- Mid mountains -->
+  <path d="M0,300 Q100,220 250,260 Q400,190 550,240 Q700,170 850,230 Q1000,190 1200,270 L1200,400 L0,400 Z"
+        fill="#5a5345" opacity="0.18" filter="url(#blur2)"/>
+
+  <!-- Near mountains (darkest, less blur) -->
+  <path d="M0,320 Q80,260 200,290 Q350,220 500,270 Q650,200 800,260 Q950,210 1100,280 L1200,310 L1200,400 L0,400 Z"
+        fill="#3a3528" opacity="0.25" filter="url(#blur1)"/>
+
+  <!-- River/water -->
+  <path d="M200,340 Q400,320 600,335 Q800,315 1000,330 L1000,400 L200,400 Z"
+        fill="#2a6b7c" opacity="0.06" filter="url(#blur2)"/>
+
+  <!-- Mist overlay -->
+  <rect width="1200" height="400" fill="url(#mist)"/>
+
+  <!-- Ink splash accents -->
+  <circle cx="300" cy="200" r="80" fill="#1a1a17" opacity="0.03" filter="url(#blur3)"/>
+  <circle cx="900" cy="180" r="60" fill="#1a1a17" opacity="0.04" filter="url(#blur3)"/>
+
+  <!-- Tiny brush stroke dots (like ink droplets) -->
+  <circle cx="450" cy="150" r="2" fill="#c24a3a" opacity="0.15"/>
+  <circle cx="750" cy="140" r="1.5" fill="#c24a3a" opacity="0.12"/>
+  <circle cx="150" cy="260" r="3" fill="#3a3528" opacity="0.08"/>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "id": "kafka",
+  "name": "弗兰兹·卡夫卡",
+  "nameEn": "Franz Kafka",
+  "alias": "卡夫卡",
+  "nationality": "奥地利",
+  "era": "20世纪",
+  "birthYear": 1883,
+  "deathYear": 1924,
+  "literaryMovement": "现代主义",
+  "influencedBy": ["dostoevsky", "flaubert"],
+  "influenced": ["camus", "borges", "garcia-marquez"],
+  "awards": ["现代主义先驱"],
+  "summary": "荒诞世界的先知，以冷静克制的笔触揭示了现代人的异化与困境",
+  "tags": ["荒诞", "现代主义", "异化", "官僚体制"],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

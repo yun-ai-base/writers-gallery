@@ -1,0 +1,28 @@
+{
+  "id": "milosz",
+  "name": "米沃什",
+  "nameEn": "Czesław Miłosz",
+  "alias": "",
+  "nationality": "波兰",
+  "era": "20世纪",
+  "birthYear": 1911,
+  "deathYear": 2004,
+  "literaryMovement": "东欧诗歌 / 历史见证",
+  "influencedBy": [],
+  "influenced": [
+    "szymborska"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1980)"
+  ],
+  "summary": "诺贝尔文学奖得主，以诗歌见证东欧的苦难与流亡，历史记忆的守护者",
+  "tags": [
+    "诺贝尔奖",
+    "流亡",
+    "见证",
+    "波兰",
+    "记忆"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

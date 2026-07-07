@@ -1,0 +1,33 @@
+{
+  "id": "chekhov",
+  "name": "契诃夫",
+  "nameEn": "Anton Chekhov",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "19世纪末",
+  "birthYear": 1860,
+  "deathYear": 1904,
+  "literaryMovement": "现实主义 / 短篇小说",
+  "influencedBy": [
+    "tolstoy",
+    "turgenev"
+  ],
+  "influenced": [
+    "shaw",
+    "ibsen",
+    "hemingway"
+  ],
+  "awards": [
+    "短篇小说大师"
+  ],
+  "summary": "短篇小说的最高大师和现代戏剧的革新者，以极简笔触捕捉日常生活的悲喜剧",
+  "tags": [
+    "短篇",
+    "极简",
+    "日常",
+    "悲喜剧",
+    "戏剧"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

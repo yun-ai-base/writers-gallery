@@ -1,0 +1,18 @@
+{
+  "id": "shen-congwen",
+  "name": "沈从文",
+  "nameEn": "Shen Congwen",
+  "alias": "沈岳焕",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1902,
+  "deathYear": 1988,
+  "literaryMovement": "乡土文学",
+  "influencedBy": ["lu-xun", "thoreau"],
+  "influenced": ["wang-zengqi", "ah-cheng"],
+  "awards": ["乡土文学大师"],
+  "summary": "湘西世界的守护者，以诗意的笔触构建了一个纯净而悲壮的边地人间",
+  "tags": ["乡土文学", "湘西", "诗意叙事", "边地书写"],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

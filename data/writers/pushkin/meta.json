@@ -1,0 +1,33 @@
+{
+  "id": "pushkin",
+  "name": "普希金",
+  "nameEn": "Alexander Pushkin",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "19世纪",
+  "birthYear": 1799,
+  "deathYear": 1837,
+  "literaryMovement": "浪漫主义 / 俄国文学奠基",
+  "influencedBy": [
+    "byron"
+  ],
+  "influenced": [
+    "tolstoy",
+    "dostoevsky",
+    "gogol",
+    "turgenev"
+  ],
+  "awards": [
+    "俄国文学之父"
+  ],
+  "summary": "俄国文学之父，以诗歌和叙事开创了俄语文学的全部可能性，从浪漫抒情到现实主义",
+  "tags": [
+    "俄国文学之父",
+    "诗歌",
+    "浪漫主义",
+    "自由",
+    "叙事诗"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

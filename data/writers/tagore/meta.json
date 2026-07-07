@@ -1,0 +1,28 @@
+{
+  "id": "tagore",
+  "name": "泰戈尔",
+  "nameEn": "Rabindranath Tagore",
+  "alias": "",
+  "nationality": "印度",
+  "era": "19-20世纪",
+  "birthYear": 1861,
+  "deathYear": 1941,
+  "literaryMovement": "印度文艺复兴 / 诗意哲学",
+  "influencedBy": [],
+  "influenced": [
+    "paz"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1913)"
+  ],
+  "summary": "印度最伟大的诗人和思想家，以《吉檀迦利》歌颂灵魂与神性的对话，东方诗意哲学的最高表达",
+  "tags": [
+    "诺贝尔奖",
+    "吉檀迦利",
+    "东方哲学",
+    "诗歌",
+    "灵性"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

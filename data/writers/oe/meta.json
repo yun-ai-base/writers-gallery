@@ -1,0 +1,34 @@
+{
+  "id": "oe",
+  "name": "大江健三郎",
+  "nameEn": "Kenzaburō Ōe",
+  "alias": "",
+  "nationality": "日本",
+  "era": "当代",
+  "birthYear": 1935,
+  "deathYear": 2022,
+  "literaryMovement": "存在主义 / 社会批判",
+  "influencedBy": [
+    "camus",
+    "dostoevsky",
+    "faulkner",
+    "kafka"
+  ],
+  "influenced": [
+    "mo-yan",
+    "yu-hua"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1994)"
+  ],
+  "summary": "日本第二位诺贝尔文学奖得主，以《个人的体验》书写残疾儿子带来的存在困境与救赎",
+  "tags": [
+    "诺贝尔奖",
+    "个人体验",
+    "存在主义",
+    "残疾",
+    "救赎"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

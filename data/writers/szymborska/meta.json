@@ -1,0 +1,33 @@
+{
+  "id": "szymborska",
+  "name": "辛波丝卡",
+  "nameEn": "Wisława Szymborska",
+  "alias": "",
+  "nationality": "波兰",
+  "era": "当代",
+  "birthYear": 1923,
+  "deathYear": 2012,
+  "literaryMovement": "波兰诗歌 / 智性幽默",
+  "influencedBy": [
+    "milosz",
+    "kafka",
+    "camus"
+  ],
+  "influenced": [
+    "kundera",
+    "eco"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1996)"
+  ],
+  "summary": "诺贝尔文学奖得主，以极简而机智的诗歌揭示日常生活中的哲学惊奇",
+  "tags": [
+    "诺贝尔奖",
+    "诗歌",
+    "智性",
+    "幽默",
+    "惊奇"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

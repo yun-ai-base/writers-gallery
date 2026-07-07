@@ -1,0 +1,34 @@
+{
+  "id": "mishima",
+  "name": "三岛由纪夫",
+  "nameEn": "Yukio Mishima",
+  "alias": "",
+  "nationality": "日本",
+  "era": "20世纪",
+  "birthYear": 1925,
+  "deathYear": 1970,
+  "literaryMovement": "日本美学 / 虚无与美",
+  "influencedBy": [
+    "kawabata",
+    "dostoevsky",
+    "goethe"
+  ],
+  "influenced": [
+    "oe",
+    "yu-hua",
+    "mo-yan"
+  ],
+  "awards": [
+    "日本美学极端书写者"
+  ],
+  "summary": "日本美学的极端书写者，以《金阁寺》书写美与毁灭的永恒纠缠，最终以切腹殉美",
+  "tags": [
+    "金阁寺",
+    "美与毁灭",
+    "切腹",
+    "虚无",
+    "极端"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "dickens",
+  "name": "狄更斯",
+  "nameEn": "Charles Dickens",
+  "alias": "",
+  "nationality": "英国",
+  "era": "19世纪",
+  "birthYear": 1812,
+  "deathYear": 1870,
+  "literaryMovement": "现实主义 / 社会批判",
+  "influencedBy": [],
+  "influenced": [
+    "dostoevsky",
+    "gorky"
+  ],
+  "awards": [
+    "英国现实主义巨匠"
+  ],
+  "summary": "英国最伟大的小说家之一，以宏大的社会全景和鲜活的人物群像书写底层人民的苦难与希望",
+  "tags": [
+    "社会批判",
+    "底层",
+    "孤儿",
+    "伦敦",
+    "群像"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

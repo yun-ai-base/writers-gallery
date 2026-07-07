@@ -1,0 +1,31 @@
+{
+  "id": "boccaccio",
+  "name": "薄伽丘",
+  "nameEn": "Giovanni Boccaccio",
+  "alias": "",
+  "nationality": "意大利",
+  "era": "文艺复兴",
+  "birthYear": 1313,
+  "deathYear": 1375,
+  "literaryMovement": "文艺复兴 / 早期人文主义",
+  "influencedBy": [
+    "dante"
+  ],
+  "influenced": [
+    "shakespeare",
+    "chaucer"
+  ],
+  "awards": [
+    "文艺复兴先驱"
+  ],
+  "summary": "文艺复兴的先驱者，以《十日谈》冲破中世纪的禁欲枷锁，歌颂人间的爱情与欢乐",
+  "tags": [
+    "十日谈",
+    "人文主义",
+    "爱情",
+    "故事",
+    "世俗"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

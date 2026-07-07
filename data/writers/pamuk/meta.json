@@ -1,0 +1,34 @@
+{
+  "id": "pamuk",
+  "name": "帕慕克",
+  "nameEn": "Orhan Pamuk",
+  "alias": "",
+  "nationality": "土耳其",
+  "era": "当代",
+  "birthYear": 1952,
+  "deathYear": null,
+  "literaryMovement": "后现代主义 / 东西方交汇",
+  "influencedBy": [
+    "borges",
+    "calvino",
+    "proust",
+    "nabokov"
+  ],
+  "influenced": [
+    "mo-yan",
+    "yu-hua"
+  ],
+  "awards": [
+    "诺贝尔文学奖(2006)"
+  ],
+  "summary": "土耳其诺贝尔文学奖得主，以《我的名字叫红》书写伊斯坦布尔的东西方交汇与身份迷宫",
+  "tags": [
+    "诺贝尔奖",
+    "伊斯坦布尔",
+    "东西方",
+    "身份",
+    "红色"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "zhang-ailing",
+  "name": "张爱玲",
+  "nameEn": "Eileen Chang",
+  "alias": "张瑛",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1920,
+  "deathYear": 1995,
+  "literaryMovement": "都市文学 / 通俗与高雅融合",
+  "influencedBy": [],
+  "influenced": [
+    "su-tong",
+    "wang-an-yi"
+  ],
+  "awards": [
+    "中国都市文学传奇"
+  ],
+  "summary": "中国都市文学最独特的声音，以冷艳笔触书写上海香港的男女情事与人性幽暗",
+  "tags": [
+    "都市",
+    "女性",
+    "华丽",
+    "苍凉",
+    "上海"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

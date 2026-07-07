@@ -1,0 +1,33 @@
+{
+  "id": "camus",
+  "name": "加缪",
+  "nameEn": "Albert Camus",
+  "alias": "",
+  "nationality": "法国",
+  "era": "20世纪",
+  "birthYear": 1913,
+  "deathYear": 1960,
+  "literaryMovement": "存在主义 / 荒诞哲学",
+  "influencedBy": [
+    "dostoevsky",
+    "kafka"
+  ],
+  "influenced": [
+    "kundera",
+    "mishima",
+    "oe"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1957)"
+  ],
+  "summary": "存在主义文学的巨匠，以《局外人》揭示荒诞世界中人的冷漠与觉醒",
+  "tags": [
+    "存在主义",
+    "荒诞",
+    "局外人",
+    "诺贝尔奖",
+    "哲学"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

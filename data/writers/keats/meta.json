@@ -1,0 +1,34 @@
+{
+  "id": "keats",
+  "name": "济慈",
+  "nameEn": "John Keats",
+  "alias": "",
+  "nationality": "英国",
+  "era": "19世纪",
+  "birthYear": 1795,
+  "deathYear": 1821,
+  "literaryMovement": "浪漫主义",
+  "influencedBy": [
+    "shelley",
+    "shakespeare",
+    "homer"
+  ],
+  "influenced": [
+    "fitzgerald",
+    "woolf",
+    "poe"
+  ],
+  "awards": [
+    "英国最伟大的抒情诗人"
+  ],
+  "summary": "英国最伟大的抒情诗人之一，以感官的极致体验书写美与死亡的永恒纠缠",
+  "tags": [
+    "抒情",
+    "美",
+    "死亡",
+    "感官",
+    "希腊"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

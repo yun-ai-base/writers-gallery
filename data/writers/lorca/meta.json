@@ -1,0 +1,32 @@
+{
+  "id": "lorca",
+  "name": "洛尔卡",
+  "nameEn": "Federico García Lorca",
+  "alias": "",
+  "nationality": "西班牙",
+  "era": "20世纪",
+  "birthYear": 1898,
+  "deathYear": 1936,
+  "literaryMovement": "西班牙诗歌 / 戏剧",
+  "influencedBy": [
+    "whitman",
+    "baudelaire"
+  ],
+  "influenced": [
+    "garcia-marquez",
+    "mishima"
+  ],
+  "awards": [
+    "西班牙最伟大的诗人"
+  ],
+  "summary": "西班牙最伟大的诗人和剧作家，以《血婚》等作品书写安达卢西亚的激情与死亡",
+  "tags": [
+    "血婚",
+    "安达卢西亚",
+    "激情",
+    "死亡",
+    "诗歌"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

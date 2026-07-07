@@ -1,0 +1,32 @@
+{
+  "id": "a-cheng",
+  "name": "阿城",
+  "nameEn": "A Cheng",
+  "alias": "钟阿城",
+  "nationality": "中国",
+  "era": "当代",
+  "birthYear": 1949,
+  "deathYear": null,
+  "literaryMovement": "文化寻根文学",
+  "influencedBy": [
+    "shen-congwen",
+    "wang-zengqi"
+  ],
+  "influenced": [
+    "wang-xiaobo",
+    "jia-pingwa"
+  ],
+  "awards": [
+    "寻根文学代表"
+  ],
+  "summary": "以《棋王》等作品书写文革中普通人的精神坚守，文化寻根文学的精华",
+  "tags": [
+    "寻根",
+    "棋王",
+    "道家",
+    "极简",
+    "坚守"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

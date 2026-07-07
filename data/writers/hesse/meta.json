@@ -1,0 +1,32 @@
+{
+  "id": "hesse",
+  "name": "黑塞",
+  "nameEn": "Hermann Hesse",
+  "alias": "",
+  "nationality": "德国",
+  "era": "20世纪",
+  "birthYear": 1877,
+  "deathYear": 1962,
+  "literaryMovement": "浪漫主义 / 东方哲学融合",
+  "influencedBy": [
+    "goethe",
+    "dostoevsky"
+  ],
+  "influenced": [
+    "thomas-mann",
+    "kundera"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1946)"
+  ],
+  "summary": "融合东西方哲学的精神探索者，以《荒原狼》《悉达多》书写自我的分裂与救赎",
+  "tags": [
+    "荒原狼",
+    "悉达多",
+    "东方哲学",
+    "精神探索",
+    "诺贝尔奖"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

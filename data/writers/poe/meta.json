@@ -1,0 +1,32 @@
+{
+  "id": "poe",
+  "name": "埃德加·爱伦·坡",
+  "nameEn": "Edgar Allan Poe",
+  "alias": "爱伦·坡",
+  "nationality": "美国",
+  "era": "19世纪",
+  "birthYear": 1809,
+  "deathYear": 1849,
+  "literaryMovement": "哥特文学 / 推理小说先驱",
+  "influencedBy": [
+    "byron"
+  ],
+  "influenced": [
+    "baudelaire",
+    "borges",
+    "kafka"
+  ],
+  "awards": [
+    "推理小说与哥特文学先驱"
+  ],
+  "summary": "哥特恐怖小说和推理小说的开创者，以黑暗的心理探索书写恐惧与死亡的美学",
+  "tags": [
+    "哥特",
+    "推理",
+    "恐怖",
+    "心理",
+    "死亡美学"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

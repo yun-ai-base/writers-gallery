@@ -1,0 +1,30 @@
+{
+  "id": "woolf",
+  "name": "伍尔夫",
+  "nameEn": "Virginia Woolf",
+  "alias": "",
+  "nationality": "英国",
+  "era": "20世纪",
+  "birthYear": 1882,
+  "deathYear": 1941,
+  "literaryMovement": "现代主义 / 意识流",
+  "influencedBy": [
+    "joyce"
+  ],
+  "influenced": [
+    "lessing"
+  ],
+  "awards": [
+    "意识流小说先驱"
+  ],
+  "summary": "意识流小说的先驱，以诗意的内心独白书写时间、记忆与女性的精神世界",
+  "tags": [
+    "意识流",
+    "女性",
+    "时间",
+    "诗意",
+    "内心"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

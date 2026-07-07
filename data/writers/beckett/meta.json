@@ -1,0 +1,31 @@
+{
+  "id": "beckett",
+  "name": "贝克特",
+  "nameEn": "Samuel Beckett",
+  "alias": "",
+  "nationality": "爱尔兰",
+  "era": "20世纪",
+  "birthYear": 1906,
+  "deathYear": 1989,
+  "literaryMovement": "荒诞派戏剧 / 后现代主义",
+  "influencedBy": [
+    "joyce"
+  ],
+  "influenced": [
+    "pinter",
+    "stoppard"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1969)"
+  ],
+  "summary": "荒诞派戏剧的创始人，以《等待戈多》揭示人类存在的荒诞与等待的永恒",
+  "tags": [
+    "荒诞",
+    "等待戈多",
+    "极简",
+    "虚无",
+    "诺贝尔奖"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

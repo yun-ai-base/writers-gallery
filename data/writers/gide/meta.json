@@ -1,0 +1,31 @@
+{
+  "id": "gide",
+  "name": "纪德",
+  "nameEn": "André Gide",
+  "alias": "",
+  "nationality": "法国",
+  "era": "20世纪",
+  "birthYear": 1869,
+  "deathYear": 1951,
+  "literaryMovement": "法国现代文学 / 道德反思",
+  "influencedBy": [
+    "nietzsche"
+  ],
+  "influenced": [
+    "camus",
+    "sartre"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1947)"
+  ],
+  "summary": "法国现代文学的重要先驱，以《窄门》《背德者》书写道德束缚与自由欲望的永恒冲突",
+  "tags": [
+    "诺贝尔奖",
+    "窄门",
+    "道德",
+    "自由",
+    "欲望"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

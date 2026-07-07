@@ -1,0 +1,33 @@
+{
+  "id": "yu-hua",
+  "name": "余华",
+  "nameEn": "Yu Hua",
+  "alias": "",
+  "nationality": "中国",
+  "era": "当代",
+  "birthYear": 1960,
+  "deathYear": null,
+  "literaryMovement": "先锋文学 / 现实主义",
+  "influencedBy": [
+    "kafka",
+    "garcia-marquez",
+    "lu-xun"
+  ],
+  "influenced": [
+    "su-tong",
+    "mo-yan"
+  ],
+  "awards": [
+    "意大利格林扎纳·卡佛文学奖"
+  ],
+  "summary": "中国先锋小说的代表人物，以《活着》等作品书写人在苦难中的坚韧与温情",
+  "tags": [
+    "先锋",
+    "苦难",
+    "活着",
+    "温情",
+    "简洁"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

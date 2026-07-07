@@ -1,0 +1,31 @@
+{
+  "id": "maupassant",
+  "name": "莫泊桑",
+  "nameEn": "Guy de Maupassant",
+  "alias": "",
+  "nationality": "法国",
+  "era": "19世纪",
+  "birthYear": 1850,
+  "deathYear": 1893,
+  "literaryMovement": "现实主义 / 短篇小说",
+  "influencedBy": [
+    "flaubert"
+  ],
+  "influenced": [
+    "chekhov",
+    "o-connor"
+  ],
+  "awards": [
+    "短篇小说巨匠"
+  ],
+  "summary": "法国短篇小说的巨匠，以《项链》等作品在极简叙事中揭示人性的虚荣与命运的反讽",
+  "tags": [
+    "短篇",
+    "项链",
+    "虚荣",
+    "反讽",
+    "极简"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

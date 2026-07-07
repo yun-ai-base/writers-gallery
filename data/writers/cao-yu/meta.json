@@ -1,0 +1,32 @@
+{
+  "id": "cao-yu",
+  "name": "曹禺",
+  "nameEn": "Cao Yu",
+  "alias": "万家宝",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1910,
+  "deathYear": 1996,
+  "literaryMovement": "现代话剧",
+  "influencedBy": [
+    "shakespeare",
+    "ibsen"
+  ],
+  "influenced": [
+    "lao-she",
+    "mo-yan"
+  ],
+  "awards": [
+    "中国现代话剧奠基人"
+  ],
+  "summary": "中国现代话剧的奠基人，以《雷雨》《日出》等作品开创了中国现代戏剧传统",
+  "tags": [
+    "话剧",
+    "悲剧",
+    "家庭",
+    "命运",
+    "冲突"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

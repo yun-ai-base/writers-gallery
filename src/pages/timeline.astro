@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import InteractiveTimeline from '../components/InteractiveTimeline.vue';
+
+const allMeta = import.meta.glob('../../data/writers/*/meta.json', { eager: true });
+const allTimelines = import.meta.glob('../../data/writers/*/timeline.json', { eager: true });
+
+const writers = Object.values(allMeta).map(m => m.default || m);
+
+// 精简 writers 数据（时间线只需 id, name, nationality 用于补全事件）
+const writerSlim = writers.map(w => ({
+  id: w.id,
+  name: w.name,
+  nationality: w.nationality
+}));
+
+let allEvents = [];
+for (const [path, mod] of Object.entries(allTimelines)) {
+  const timeline = mod.default || mod;
+  const slug = path.match(/writers\/([^\/]+)\/timeline\.json/)?.[1];
+  const writer = writers.find(w => w.id === slug);
+  if (writer && Array.isArray(timeline)) {
+    timeline.forEach(event => {
+      allEvents.push({
+        ...event,
+        writerId: writer.id,
+        writerName: writer.name,
+        nationality: writer.nationality
+      });
+    });
+  }
+}
+allEvents.sort((a, b) => a.year - b.year);
+---
+
+<BaseLayout title="文学史时间线 - 百位作家画廊">
+  <div class="global-tl-header">
+    <h1>文学史<span style="color:var(--c-accent);">时间线</span></h1>
+    <p class="tl-subtitle">一百位作家的人生轨迹与文学史交汇</p>
+  </div>
+
+  <InteractiveTimeline
+    client:visible
+    events={JSON.stringify(allEvents)}
+    writers={JSON.stringify(writerSlim)}
+  />
+</BaseLayout>

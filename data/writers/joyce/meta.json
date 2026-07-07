@@ -1,0 +1,34 @@
+{
+  "id": "joyce",
+  "name": "乔伊斯",
+  "nameEn": "James Joyce",
+  "alias": "",
+  "nationality": "爱尔兰",
+  "era": "20世纪",
+  "birthYear": 1882,
+  "deathYear": 1941,
+  "literaryMovement": "现代主义 / 意识流",
+  "influencedBy": [
+    "dante",
+    "ibsen",
+    "flaubert"
+  ],
+  "influenced": [
+    "woolf",
+    "faulkner",
+    "beckett"
+  ],
+  "awards": [
+    "现代主义巅峰"
+  ],
+  "summary": "现代主义的巅峰，以《尤利西斯》将意识流推至极限，重构了小说叙事的全部可能性",
+  "tags": [
+    "意识流",
+    "尤利西斯",
+    "现代主义",
+    "语言实验",
+    "史诗"
+  ],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

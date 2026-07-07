@@ -1,0 +1,33 @@
+{
+  "id": "steinbeck",
+  "name": "斯坦贝克",
+  "nameEn": "John Steinbeck",
+  "alias": "",
+  "nationality": "美国",
+  "era": "20世纪",
+  "birthYear": 1902,
+  "deathYear": 1968,
+  "literaryMovement": "现实主义 / 社会批判",
+  "influencedBy": [
+    "shakespeare",
+    "dostoevsky",
+    "tolstoy"
+  ],
+  "influenced": [
+    "yu-hua",
+    "mo-yan"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1962)"
+  ],
+  "summary": "以《愤怒的葡萄》书写美国底层农民的苦难与抗争，社会批判文学的丰碑",
+  "tags": [
+    "诺贝尔奖",
+    "底层",
+    "农民",
+    "愤怒的葡萄",
+    "社会批判"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

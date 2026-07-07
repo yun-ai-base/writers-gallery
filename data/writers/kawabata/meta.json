@@ -1,0 +1,32 @@
+{
+  "id": "kawabata",
+  "name": "川端康成",
+  "nameEn": "Yasunari Kawabata",
+  "alias": "",
+  "nationality": "日本",
+  "era": "20世纪",
+  "birthYear": 1899,
+  "deathYear": 1972,
+  "literaryMovement": "新感觉派 / 日本美学",
+  "influencedBy": [
+    "proust",
+    "joyce"
+  ],
+  "influenced": [
+    "mishima",
+    "oe"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1968)"
+  ],
+  "summary": "诺贝尔文学奖得主，以《雪国》书写日本美学的极致——虚无、哀愁与瞬间之美",
+  "tags": [
+    "雪国",
+    "诺贝尔奖",
+    "日本美学",
+    "虚无",
+    "哀愁"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

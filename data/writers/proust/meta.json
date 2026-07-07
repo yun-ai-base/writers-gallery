@@ -1,0 +1,33 @@
+{
+  "id": "proust",
+  "name": "普鲁斯特",
+  "nameEn": "Marcel Proust",
+  "alias": "",
+  "nationality": "法国",
+  "era": "20世纪",
+  "birthYear": 1871,
+  "deathYear": 1922,
+  "literaryMovement": "意识流 / 时间小说",
+  "influencedBy": [
+    "flaubert",
+    "baudelaire"
+  ],
+  "influenced": [
+    "woolf",
+    "joyce",
+    "beckett"
+  ],
+  "awards": [
+    "意识流先驱"
+  ],
+  "summary": "以《追忆似水年华》七卷重构了时间与记忆的全部维度，意识流小说的先驱与最高峰",
+  "tags": [
+    "追忆",
+    "意识流",
+    "时间",
+    "记忆",
+    "法国"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

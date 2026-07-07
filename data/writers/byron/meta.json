@@ -1,0 +1,30 @@
+{
+  "id": "byron",
+  "name": "拜伦",
+  "nameEn": "Lord Byron",
+  "alias": "",
+  "nationality": "英国",
+  "era": "19世纪",
+  "birthYear": 1788,
+  "deathYear": 1824,
+  "literaryMovement": "浪漫主义",
+  "influencedBy": [],
+  "influenced": [
+    "pushkin",
+    "lermontov",
+    "heine"
+  ],
+  "awards": [
+    "浪漫主义诗人代表"
+  ],
+  "summary": "浪漫主义最狂放的诗人，以叛逆的激情和贵族的骄傲书写自由与冒险",
+  "tags": [
+    "浪漫主义",
+    "叛逆",
+    "自由",
+    "冒险",
+    "唐璜"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

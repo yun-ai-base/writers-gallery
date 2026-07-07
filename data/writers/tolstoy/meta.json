@@ -1,0 +1,18 @@
+{
+  "id": "tolstoy",
+  "name": "列夫·托尔斯泰",
+  "nameEn": "Leo Tolstoy",
+  "alias": "列夫·尼古拉耶维奇·托尔斯泰",
+  "nationality": "俄国",
+  "era": "19世纪",
+  "birthYear": 1828,
+  "deathYear": 1910,
+  "literaryMovement": "现实主义",
+  "influencedBy": ["shakespeare", "stendhal"],
+  "influenced": ["lu-xun", "gandhi", "hemingway"],
+  "awards": ["俄国文学泰斗"],
+  "summary": "俄国文学的巍峨巨峰，以史诗般的视野书写人类最宏大的命题——战争与和平、信仰与救赎",
+  "tags": ["史诗", "现实主义", "基督教无政府主义", "道德哲学"],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

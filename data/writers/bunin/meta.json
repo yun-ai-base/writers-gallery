@@ -1,0 +1,32 @@
+{
+  "id": "bunin",
+  "name": "蒲宁",
+  "nameEn": "Ivan Bunin",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "20世纪",
+  "birthYear": 1870,
+  "deathYear": 1953,
+  "literaryMovement": "俄国古典传统 / 抒情小说",
+  "influencedBy": [
+    "pushkin",
+    "turgenev"
+  ],
+  "influenced": [
+    "nabokov",
+    "solzhenitsyn"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1933)"
+  ],
+  "summary": "首位俄国诺贝尔文学奖得主，以典雅的抒情书写俄国乡村的消逝与爱情的哀伤",
+  "tags": [
+    "诺贝尔奖",
+    "抒情",
+    "乡村",
+    "消逝",
+    "爱情"
+  ],
+  "influenceScore": 6,
+  "avatar": "/images/portraits/placeholder.svg"
+}

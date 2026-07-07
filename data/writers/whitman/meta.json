@@ -1,0 +1,30 @@
+{
+  "id": "whitman",
+  "name": "惠特曼",
+  "nameEn": "Walt Whitman",
+  "alias": "",
+  "nationality": "美国",
+  "era": "19世纪",
+  "birthYear": 1819,
+  "deathYear": 1892,
+  "literaryMovement": "自由体诗歌",
+  "influencedBy": [],
+  "influenced": [
+    "sandburg",
+    "ginsberg",
+    " Neruda"
+  ],
+  "awards": [
+    "美国诗歌之父"
+  ],
+  "summary": "美国诗歌之父，以《草叶集》的自由体诗歌颂民主、自然与自我的无限",
+  "tags": [
+    "自由体",
+    "民主",
+    "自然",
+    "草叶集",
+    "美国精神"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

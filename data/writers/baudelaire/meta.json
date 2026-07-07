@@ -1,0 +1,32 @@
+{
+  "id": "baudelaire",
+  "name": "波德莱尔",
+  "nameEn": "Charles Baudelaire",
+  "alias": "",
+  "nationality": "法国",
+  "era": "19世纪",
+  "birthYear": 1821,
+  "deathYear": 1867,
+  "literaryMovement": "象征主义 / 现代诗歌先驱",
+  "influencedBy": [
+    "hugo"
+  ],
+  "influenced": [
+    "mallarme",
+    "verlaine",
+    "eliot"
+  ],
+  "awards": [
+    "现代诗歌先驱"
+  ],
+  "summary": "现代诗歌的开创者，以《恶之花》将美与罪恶交织，开创了象征主义的全部可能性",
+  "tags": [
+    "恶之花",
+    "象征主义",
+    "美与罪恶",
+    "现代诗歌",
+    "都市"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

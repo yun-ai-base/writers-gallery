@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const allMeta = import.meta.glob('../../data/writers/*/meta.json', { eager: true });
+const allQuotes = import.meta.glob('../../data/writers/*/quotes.json', { eager: true });
+
+const writers = Object.values(allMeta).map(m => m.default || m);
+
+const quotesMap = {};
+for (const [path, mod] of Object.entries(allQuotes)) {
+  const slug = path.match(/writers\/([^\/]+)\/quotes\.json/)?.[1];
+  if (slug) quotesMap[slug] = mod.default || mod;
+}
+---
+
+<BaseLayout title="我的收藏 - 百位作家画廊">
+  <div class="favorites-page">
+    <h1 class="fav-page-title">我的<span style="color:var(--c-accent);">收藏</span></h1>
+    <p class="fav-page-desc">你收藏的作家会在这里显示</p>
+
+    <div id="fav-list" class="fav-list"></div>
+    <div id="fav-empty" class="fav-empty-state">
+      还没有收藏任何作家，去<a href="/" style="color:var(--c-accent);">首页</a>探索吧！
+    </div>
+  </div>
+
+  <script>
+    const favsData = {STATIC_WRITERS: JSON.stringify(writers), STATIC_QUOTES: JSON.stringify(quotesMap)};
+  </script>
+
+  <script define:vars={{ writersData: JSON.stringify(writers), quotesData: JSON.stringify(quotesMap) }}>
+    function renderFavorites() {
+      const favs = JSON.parse(localStorage.getItem('writerFavorites') || '[]');
+      const writers = JSON.parse(writersData);
+      const quotes = JSON.parse(quotesData);
+      const listEl = document.getElementById('fav-list');
+      const emptyEl = document.getElementById('fav-empty');
+
+      if (favs.length === 0) {
+        listEl.style.display = 'none';
+        emptyEl.style.display = 'block';
+        return;
+      }
+
+      emptyEl.style.display = 'none';
+      listEl.style.display = 'grid';
+
+      let html = '';
+      for (const favId of favs) {
+        const writer = writers.find(w => w.id === favId);
+        if (!writer) continue;
+        const isCn = writer.nationality === '中国';
+        const writerQuotes = quotes[favId] || [];
+        const topQuote = writerQuotes.length > 0 ? writerQuotes[0] : null;
+
+        html += `
+          <a href="/writer/${writer.id}.html" class="writer-card ${isCn ? 'cn-writer' : 'en-writer'}">
+            <div class="card-seal"></div>
+            <div class="card-header">
+              <div class="avatar">${writer.name.charAt(0)}</div>
+              <div class="card-info">
+                <div class="card-name">${writer.name}</div>
+                <div class="card-meta">${writer.nationality} · ${writer.era}</div>
+              </div>
+            </div>
+            ${topQuote ? `<div class="card-summary" style="font-style:italic;">"${topQuote.text}"</div>` : ''}
+          </a>
+        `;
+      }
+      listEl.innerHTML = html;
+    }
+
+    renderFavorites();
+    window.addEventListener('storage', renderFavorites);
+  </script>
+</BaseLayout>

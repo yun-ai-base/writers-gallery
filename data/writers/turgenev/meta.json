@@ -1,0 +1,31 @@
+{
+  "id": "turgenev",
+  "name": "屠格涅夫",
+  "nameEn": "Ivan Turgenev",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "19世纪",
+  "birthYear": 1818,
+  "deathYear": 1883,
+  "literaryMovement": "现实主义 / 诗意小说",
+  "influencedBy": [
+    "pushkin"
+  ],
+  "influenced": [
+    "chekhov",
+    "hemingway"
+  ],
+  "awards": [
+    "俄国诗意小说大师"
+  ],
+  "summary": "俄国最优雅的小说家，以《父与子》书写代际冲突，以诗意的笔触描绘自然与人情",
+  "tags": [
+    "诗意",
+    "代际冲突",
+    "自然",
+    "优雅",
+    "父与子"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

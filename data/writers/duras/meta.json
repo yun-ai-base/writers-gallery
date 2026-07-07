@@ -1,0 +1,34 @@
+{
+  "id": "duras",
+  "name": "杜拉斯",
+  "nameEn": "Marguerite Duras",
+  "alias": "",
+  "nationality": "法国",
+  "era": "20世纪",
+  "birthYear": 1914,
+  "deathYear": 1996,
+  "literaryMovement": "新小说运动 / 散文诗化小说",
+  "influencedBy": [
+    "proust",
+    "faulkner",
+    "gide"
+  ],
+  "influenced": [
+    "pamuk",
+    "yu-hua",
+    "wang-xiaobo"
+  ],
+  "awards": [
+    "龚古尔文学奖"
+  ],
+  "summary": "法国新小说运动的代表，以《情人》书写殖民地异乡中的欲望与记忆",
+  "tags": [
+    "新小说",
+    "情人",
+    "殖民地",
+    "欲望",
+    "记忆"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

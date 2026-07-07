@@ -1,0 +1,31 @@
+{
+  "id": "qian-zhongshu",
+  "name": "钱锺书",
+  "nameEn": "Qian Zhongshu",
+  "alias": "",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1910,
+  "deathYear": 1998,
+  "literaryMovement": "学者型小说 / 讽刺文学",
+  "influencedBy": [
+    "lin-yutang",
+    "lu-xun"
+  ],
+  "influenced": [
+    "wang-xiaobo"
+  ],
+  "awards": [
+    "学贯中西"
+  ],
+  "summary": "以一部《围城》成为中国讽刺小说的巅峰，学贯中西的学者型作家",
+  "tags": [
+    "讽刺",
+    "知识分子",
+    "围城",
+    "学者",
+    "机智"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

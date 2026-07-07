@@ -1,0 +1,18 @@
+{
+  "id": "lao-she",
+  "name": "老舍",
+  "nameEn": "Lao She",
+  "alias": "舒庆春",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1899,
+  "deathYear": 1966,
+  "literaryMovement": "京味文学",
+  "influencedBy": ["lu-xun", "conan-doyle"],
+  "influenced": ["wang-shuo", "mo-yan"],
+  "awards": ["人民艺术家"],
+  "summary": "京味文学的旗手，以幽默与悲悯交织的笔触，描绘旧北京市民的悲欢离合",
+  "tags": ["京味文学", "市民小说", "幽默讽刺", "现实主义", "戏剧大师"],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

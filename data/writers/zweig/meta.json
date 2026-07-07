@@ -1,0 +1,34 @@
+{
+  "id": "zweig",
+  "name": "茨威格",
+  "nameEn": "Stefan Zweig",
+  "alias": "",
+  "nationality": "奥地利",
+  "era": "20世纪",
+  "birthYear": 1881,
+  "deathYear": 1942,
+  "literaryMovement": "心理小说 / 历史传记",
+  "influencedBy": [
+    "goethe",
+    "tolstoy",
+    "dostoevsky"
+  ],
+  "influenced": [
+    "yu-hua",
+    "zhang-ailing",
+    "mo-yan"
+  ],
+  "awards": [
+    "中短篇心理小说大师"
+  ],
+  "summary": "中短篇小说的心理大师，以细腻的心理剖析书写激情、命运与历史的瞬间",
+  "tags": [
+    "心理",
+    "激情",
+    "命运",
+    "历史",
+    "传记"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

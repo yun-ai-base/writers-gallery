@@ -1,0 +1,29 @@
+{
+  "id": "pirandello",
+  "name": "皮兰德娄",
+  "nameEn": "Luigi Pirandello",
+  "alias": "",
+  "nationality": "意大利",
+  "era": "20世纪",
+  "birthYear": 1867,
+  "deathYear": 1936,
+  "literaryMovement": "现代戏剧 / 存在主义戏剧",
+  "influencedBy": [],
+  "influenced": [
+    "beckett",
+    "ionesco"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1934)"
+  ],
+  "summary": "现代戏剧的革新者，以《六个寻找剧作家的角色》打破现实与虚构的边界",
+  "tags": [
+    "戏剧",
+    "诺贝尔奖",
+    "角色",
+    "虚构",
+    "身份"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

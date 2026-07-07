@@ -1,0 +1,29 @@
+{
+  "id": "stendhal",
+  "name": "司汤达",
+  "nameEn": "Stendhal",
+  "alias": "亨利·贝尔",
+  "nationality": "法国",
+  "era": "19世纪",
+  "birthYear": 1783,
+  "deathYear": 1842,
+  "literaryMovement": "现实主义 / 心理小说",
+  "influencedBy": [],
+  "influenced": [
+    "flaubert",
+    "tolstoy"
+  ],
+  "awards": [
+    "心理现实主义先驱"
+  ],
+  "summary": "心理现实主义的先驱，以《红与黑》书写个人野心与爱情的永恒冲突",
+  "tags": [
+    "野心",
+    "红与黑",
+    "心理",
+    "阶级",
+    "爱情"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

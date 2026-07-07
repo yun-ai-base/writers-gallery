@@ -1,0 +1,32 @@
+{
+  "id": "melville",
+  "name": "梅尔维尔",
+  "nameEn": "Herman Melville",
+  "alias": "",
+  "nationality": "美国",
+  "era": "19世纪",
+  "birthYear": 1819,
+  "deathYear": 1891,
+  "literaryMovement": "象征主义 / 海洋文学",
+  "influencedBy": [
+    "shakespeare",
+    "hawthorne"
+  ],
+  "influenced": [
+    "conrad",
+    "proust"
+  ],
+  "awards": [
+    "美国文学经典"
+  ],
+  "summary": "以《白鲸》书写人与自然、人与命运的终极搏斗，美国文学最深沉的象征",
+  "tags": [
+    "白鲸",
+    "象征",
+    "海洋",
+    "命运",
+    "搏斗"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

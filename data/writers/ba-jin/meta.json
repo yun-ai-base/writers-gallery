@@ -1,0 +1,18 @@
+{
+  "id": "ba-jin",
+  "name": "巴金",
+  "nameEn": "Ba Jin",
+  "alias": "李尧棠",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1904,
+  "deathYear": 2005,
+  "literaryMovement": "现实主义",
+  "influencedBy": ["lu-xun", "tolstoy"],
+  "influenced": ["wang-meng"],
+  "awards": ["人民作家"],
+  "summary": "青年文学的先驱，以炽热的激情书写反封建、求自由的时代呐喊",
+  "tags": ["青年文学", "反封建", "激情写作", "现实主义", "忏悔意识"],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

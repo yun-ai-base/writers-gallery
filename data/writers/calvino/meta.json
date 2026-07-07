@@ -1,0 +1,32 @@
+{
+  "id": "calvino",
+  "name": "卡尔维诺",
+  "nameEn": "Italo Calvino",
+  "alias": "伊塔洛·卡尔维诺",
+  "nationality": "意大利",
+  "era": "20世纪",
+  "birthYear": 1923,
+  "deathYear": 1985,
+  "literaryMovement": "幻想文学 / 元小说",
+  "influencedBy": [
+    "borges",
+    "joyce"
+  ],
+  "influenced": [
+    "eco",
+    "pamuk"
+  ],
+  "awards": [
+    "幻想文学大师"
+  ],
+  "summary": "意大利最富想象力的作家，以《树上的男爵》《看不见的城市》书写存在的轻盈与无限可能",
+  "tags": [
+    "想象力",
+    "树上的男爵",
+    "看不见的城市",
+    "轻盈",
+    "寓言"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

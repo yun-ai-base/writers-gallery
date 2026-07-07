@@ -1,0 +1,29 @@
+{
+  "id": "austen",
+  "name": "奥斯汀",
+  "nameEn": "Jane Austen",
+  "alias": "",
+  "nationality": "英国",
+  "era": "18-19世纪",
+  "birthYear": 1775,
+  "deathYear": 1817,
+  "literaryMovement": "现实主义 / 社会风俗小说",
+  "influencedBy": [],
+  "influenced": [
+    "dickens",
+    "eliot"
+  ],
+  "awards": [
+    "英国小说之母"
+  ],
+  "summary": "英国小说之母，以微妙的讽刺和精确的社会观察书写乡绅阶层的婚恋与人性",
+  "tags": [
+    "讽刺",
+    "婚恋",
+    "乡绅",
+    "风俗",
+    "机智"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

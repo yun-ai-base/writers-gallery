@@ -1,0 +1,32 @@
+{
+  "id": "mo-yan",
+  "name": "莫言",
+  "nameEn": "Mo Yan",
+  "alias": "管谟业",
+  "nationality": "中国",
+  "era": "当代",
+  "birthYear": 1955,
+  "deathYear": null,
+  "literaryMovement": "魔幻现实主义 / 乡土文学",
+  "influencedBy": [
+    "garcia-marquez",
+    "faulkner"
+  ],
+  "influenced": [
+    "yu-hua",
+    "su-tong"
+  ],
+  "awards": [
+    "诺贝尔文学奖(2012)"
+  ],
+  "summary": "中国首位诺贝尔文学奖得主，以魔幻现实主义的笔法书写高密东北乡的残酷与狂欢",
+  "tags": [
+    "魔幻现实",
+    "乡土",
+    "诺贝尔奖",
+    "高密",
+    "感官"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

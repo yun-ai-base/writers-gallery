@@ -1,0 +1,34 @@
+{
+  "id": "borges",
+  "name": "博尔赫斯",
+  "nameEn": "Jorge Luis Borges",
+  "alias": "",
+  "nationality": "阿根廷",
+  "era": "20世纪",
+  "birthYear": 1899,
+  "deathYear": 1986,
+  "literaryMovement": "幻想文学 / 元小说",
+  "influencedBy": [
+    "cervantes",
+    "poe",
+    "schopenhauer"
+  ],
+  "influenced": [
+    "calvino",
+    "garcia-marquez",
+    "eco"
+  ],
+  "awards": [
+    "幻想文学大师"
+  ],
+  "summary": "幻想文学的最高大师，以《小径分岔的花园》等短篇构建了时间、迷宫与无限的文学宇宙",
+  "tags": [
+    "幻想",
+    "迷宫",
+    "时间",
+    "无限",
+    "小径分岔"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

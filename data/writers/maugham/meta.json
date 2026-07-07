@@ -1,0 +1,33 @@
+{
+  "id": "maugham",
+  "name": "毛姆",
+  "nameEn": "W. Somerset Maugham",
+  "alias": "",
+  "nationality": "英国",
+  "era": "20世纪",
+  "birthYear": 1874,
+  "deathYear": 1965,
+  "literaryMovement": "现实主义 / 通俗文学",
+  "influencedBy": [
+    "maupassant",
+    "chekhov",
+    "ibsen"
+  ],
+  "influenced": [
+    "orwell",
+    "zhang-ailing"
+  ],
+  "awards": [
+    "英国最受欢迎的小说家"
+  ],
+  "summary": "英国最会讲故事的作家，以《月亮与六便士》书写艺术与世俗生活的永恒撕裂",
+  "tags": [
+    "月亮与六便士",
+    "讲故事",
+    "艺术",
+    "世俗",
+    "异乡"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

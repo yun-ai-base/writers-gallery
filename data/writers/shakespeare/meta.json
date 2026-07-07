@@ -1,0 +1,18 @@
+{
+  "id": "shakespeare",
+  "name": "威廉·莎士比亚",
+  "nameEn": "William Shakespeare",
+  "alias": "莎翁",
+  "nationality": "英国",
+  "era": "文艺复兴",
+  "birthYear": 1564,
+  "deathYear": 1616,
+  "literaryMovement": "文艺复兴",
+  "influencedBy": ["marlowe", "plutarch"],
+  "influenced": ["goethe", "tolstoy", "lu-xun"],
+  "awards": ["英国文学之魂"],
+  "summary": "英语文学的永恒星辰，以戏剧与诗歌塑造了人类情感与命运的永恒原型",
+  "tags": ["戏剧", "诗歌", "文艺复兴", "人性探索"],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

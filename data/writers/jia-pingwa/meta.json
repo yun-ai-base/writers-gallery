@@ -1,0 +1,32 @@
+{
+  "id": "jia-pingwa",
+  "name": "贾平凹",
+  "nameEn": "Jia Pingwa",
+  "alias": "",
+  "nationality": "中国",
+  "era": "当代",
+  "birthYear": 1952,
+  "deathYear": null,
+  "literaryMovement": "乡土文学 / 世俗叙事",
+  "influencedBy": [
+    "shen-congwen",
+    "wang-zengqi"
+  ],
+  "influenced": [
+    "yu-hua",
+    "su-tong"
+  ],
+  "awards": [
+    "茅盾文学奖"
+  ],
+  "summary": "中国乡土文学的重镇，以《秦腔》等作品书写商州大地的苍凉与人世纷扰",
+  "tags": [
+    "乡土",
+    "商州",
+    "世俗",
+    "厚重",
+    "传统"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

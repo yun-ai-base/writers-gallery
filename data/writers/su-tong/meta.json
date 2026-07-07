@@ -1,0 +1,32 @@
+{
+  "id": "su-tong",
+  "name": "苏童",
+  "nameEn": "Su Tong",
+  "alias": "",
+  "nationality": "中国",
+  "era": "当代",
+  "birthYear": 1963,
+  "deathYear": null,
+  "literaryMovement": "先锋文学 / 历史叙事",
+  "influencedBy": [
+    "garcia-marquez",
+    "faulkner",
+    "yu-hua"
+  ],
+  "influenced": [
+    "mo-yan"
+  ],
+  "awards": [
+    "茅盾文学奖"
+  ],
+  "summary": "以《妻妾成群》等作品书写江南旧宅中的女性命运与历史暗影，先锋文学的代表",
+  "tags": [
+    "先锋",
+    "女性",
+    "江南",
+    "旧宅",
+    "历史"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

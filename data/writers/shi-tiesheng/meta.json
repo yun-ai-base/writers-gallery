@@ -1,0 +1,31 @@
+{
+  "id": "shi-tiesheng",
+  "name": "史铁生",
+  "nameEn": "Shi Tiesheng",
+  "alias": "",
+  "nationality": "中国",
+  "era": "当代",
+  "birthYear": 1951,
+  "deathYear": 2010,
+  "literaryMovement": "生命哲学文学",
+  "influencedBy": [
+    "lu-xun",
+    "shen-congwen"
+  ],
+  "influenced": [
+    "yu-hua"
+  ],
+  "awards": [
+    "生命书写者"
+  ],
+  "summary": "以轮椅上的生命书写人对命运、死亡和信仰的终极追问，当代最深刻的生命哲学家型作家",
+  "tags": [
+    "生命",
+    "地坛",
+    "命运",
+    "信仰",
+    "残疾"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

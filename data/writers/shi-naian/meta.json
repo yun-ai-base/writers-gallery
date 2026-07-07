@@ -1,0 +1,31 @@
+{
+  "id": "shi-naian",
+  "name": "施耐庵",
+  "nameEn": "Shi Nai'an",
+  "alias": "",
+  "nationality": "中国",
+  "era": "元末明初",
+  "birthYear": 1296,
+  "deathYear": 1372,
+  "literaryMovement": "英雄传奇小说",
+  "influencedBy": [
+    "guan-hanqing"
+  ],
+  "influenced": [
+    "luo-guanzhong",
+    "cao-xueqin"
+  ],
+  "awards": [
+    "四大名著"
+  ],
+  "summary": "《水浒传》作者，以群像叙事书写底层英雄的反抗与悲剧，开创了中国英雄传奇小说传统",
+  "tags": [
+    "反抗",
+    "江湖",
+    "兄弟",
+    "官逼民反",
+    "群像"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

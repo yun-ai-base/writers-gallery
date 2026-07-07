@@ -1,0 +1,34 @@
+{
+  "id": "orwell",
+  "name": "奥威尔",
+  "nameEn": "George Orwell",
+  "alias": "埃里克·布莱尔",
+  "nationality": "英国",
+  "era": "20世纪",
+  "birthYear": 1903,
+  "deathYear": 1950,
+  "literaryMovement": "反乌托邦 / 政治寓言",
+  "influencedBy": [
+    "dickens",
+    "tolstoy",
+    "zola"
+  ],
+  "influenced": [
+    "kundera",
+    "eco",
+    "solzhenitsyn"
+  ],
+  "awards": [
+    "政治寓言文学巅峰"
+  ],
+  "summary": "以《1984》和《动物庄园》预言了极权主义的全部逻辑，政治寓言文学的最高峰",
+  "tags": [
+    "反乌托邦",
+    "极权",
+    "1984",
+    "政治寓言",
+    "真相"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

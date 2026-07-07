@@ -1,0 +1,33 @@
+{
+  "id": "fitzgerald",
+  "name": "菲茨杰拉德",
+  "nameEn": "F. Scott Fitzgerald",
+  "alias": "",
+  "nationality": "美国",
+  "era": "20世纪",
+  "birthYear": 1896,
+  "deathYear": 1940,
+  "literaryMovement": "迷惘的一代",
+  "influencedBy": [
+    "joyce",
+    "keats"
+  ],
+  "influenced": [
+    "hemingway",
+    "faulkner",
+    "nabokov"
+  ],
+  "awards": [
+    "美国梦书写者"
+  ],
+  "summary": "美国梦的书写者与解构者，以《了不起的盖茨比》揭示幻灭与欲望的永恒纠葛",
+  "tags": [
+    "美国梦",
+    "盖茨比",
+    "爵士时代",
+    "幻灭",
+    "欲望"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

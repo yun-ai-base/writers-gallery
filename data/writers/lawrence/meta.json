@@ -1,0 +1,33 @@
+{
+  "id": "lawrence",
+  "name": "劳伦斯",
+  "nameEn": "D.H. Lawrence",
+  "alias": "",
+  "nationality": "英国",
+  "era": "20世纪",
+  "birthYear": 1885,
+  "deathYear": 1930,
+  "literaryMovement": "现代主义 / 心理小说",
+  "influencedBy": [
+    "whitman",
+    "dostoevsky",
+    "melville"
+  ],
+  "influenced": [
+    "steinbeck",
+    "faulkner"
+  ],
+  "awards": [
+    "心理小说先驱"
+  ],
+  "summary": "以大胆的性意识书写冲破工业文明压抑的生命本能，现代主义最具争议的小说家",
+  "tags": [
+    "性意识",
+    "本能",
+    "工业文明",
+    "心理",
+    "争议"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

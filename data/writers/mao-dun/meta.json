@@ -1,0 +1,33 @@
+{
+  "id": "mao-dun",
+  "name": "茅盾",
+  "nameEn": "Mao Dun",
+  "alias": "沈雁冰",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1896,
+  "deathYear": 1981,
+  "literaryMovement": "现实主义 / 社会剖析小说",
+  "influencedBy": [
+    "tolstoy",
+    "zola",
+    "turgenev"
+  ],
+  "influenced": [
+    "ba-jin",
+    "shen-congwen"
+  ],
+  "awards": [
+    "茅盾文学奖创立者"
+  ],
+  "summary": "中国社会剖析小说的开创者，以《子夜》等作品全景式书写中国社会的经济与政治矛盾",
+  "tags": [
+    "社会剖析",
+    "都市",
+    "经济",
+    "全景叙事",
+    "左翼"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "lermontov",
+  "name": "莱蒙托夫",
+  "nameEn": "Mikhail Lermontov",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "19世纪",
+  "birthYear": 1814,
+  "deathYear": 1841,
+  "literaryMovement": "浪漫主义",
+  "influencedBy": [
+    "pushkin",
+    "byron"
+  ],
+  "influenced": [
+    "tolstoy"
+  ],
+  "awards": [
+    "俄国浪漫主义代表"
+  ],
+  "summary": "普希金之后俄国最伟大的诗人，以《当代英雄》塑造了永恒的叛逆者形象",
+  "tags": [
+    "浪漫主义",
+    "叛逆",
+    "当代英雄",
+    "孤独",
+    "诗歌"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cervantes",
+  "name": "塞万提斯",
+  "nameEn": "Miguel de Cervantes",
+  "alias": "",
+  "nationality": "西班牙",
+  "era": "文艺复兴/黄金时代",
+  "birthYear": 1547,
+  "deathYear": 1616,
+  "literaryMovement": "文艺复兴 / 现代小说先驱",
+  "influencedBy": [],
+  "influenced": [
+    "shakespeare",
+    "dostoevsky",
+    "flaubert",
+    "kafka"
+  ],
+  "awards": [
+    "现代小说之父"
+  ],
+  "summary": "现代小说之父，以《堂吉诃德》在理想与现实的冲突中开创了小说的自我反思传统",
+  "tags": [
+    "堂吉诃德",
+    "理想主义",
+    "讽刺",
+    "骑士",
+    "现代小说"
+  ],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

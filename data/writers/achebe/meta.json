@@ -1,0 +1,29 @@
+{
+  "id": "achebe",
+  "name": "阿契贝",
+  "nameEn": "Chinua Achebe",
+  "alias": "",
+  "nationality": "尼日利亚",
+  "era": "20世纪",
+  "birthYear": 1930,
+  "deathYear": 2013,
+  "literaryMovement": "非洲文学 / 后殖民文学",
+  "influencedBy": [],
+  "influenced": [
+    "ngugi",
+    "adichie"
+  ],
+  "awards": [
+    "非洲现代文学之父"
+  ],
+  "summary": "非洲现代文学之父，以《瓦解》书写殖民主义如何摧毁非洲传统社会",
+  "tags": [
+    "瓦解",
+    "殖民主义",
+    "非洲传统",
+    "后殖民",
+    "尼日利亚"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

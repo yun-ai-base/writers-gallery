@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WriterSearch from '../components/WriterSearch.vue';
+import InfluenceGraph from '../components/InfluenceGraph.vue';
+
+const metaFiles = import.meta.glob('../../data/writers/*/meta.json', { eager: true });
+const timelineFiles = import.meta.glob('../../data/writers/*/timeline.json', { eager: true });
+
+const writers = Object.entries(metaFiles).map(([path, mod]) => {
+  const data = mod.default || mod;
+  return data;
+});
+writers.sort((a, b) => (b.influenceScore || 0) - (a.influenceScore || 0));
+
+// 精简 WriterSearch 所需数据（卡片展示 + 标签筛选 + 搜索）
+const writerCards = writers.map(w => ({
+  id: w.id,
+  name: w.name,
+  nameEn: w.nameEn || '',
+  alias: w.alias || '',
+  nationality: w.nationality,
+  era: w.era || '',
+  birthYear: w.birthYear,
+  deathYear: w.deathYear,
+  summary: w.summary || '',
+  literaryMovement: w.literaryMovement || '',
+  tags: w.tags || []
+}));
+
+// 精简 InfluenceGraph 所需数据（节点 + 连线）
+const writerGraph = writers.map(w => ({
+  id: w.id,
+  name: w.name,
+  alias: w.alias || '',
+  nationality: w.nationality,
+  birthYear: w.birthYear,
+  influenceScore: w.influenceScore || 5,
+  influenced: w.influenced || []
+}));
+
+// 今日文学史：根据当天日期筛选事件
+const today = new Date();
+const todayMonth = today.getMonth() + 1;
+const todayDay = today.getDate();
+
+const allTimelines = Object.entries(timelineFiles).map(([path, mod]) => {
+  const timeline = mod.default || mod;
+  const slug = path.match(/writers\/([^\/]+)\/timeline\.json/)?.[1];
+  const writer = writers.find(w => w.id === slug);
+  return { timeline, writer, slug };
+});
+
+const todayEvents = [];
+for (const { timeline, writer } of allTimelines) {
+  if (!writer || !Array.isArray(timeline)) continue;
+  for (const event of timeline) {
+    if (event.month === todayMonth && event.day === todayDay) {
+      todayEvents.push({ ...event, writerName: writer.name, writerId: writer.id, nationality: writer.nationality });
+    }
+    if (!event.month && !event.day) {
+      // 无法精确匹配，跳过
+    }
+  }
+}
+
+// 随机作家
+const randomWriterId = writers[Math.floor(Math.random() * writers.length)]?.id || 'lu-xun';
+---
+
+<BaseLayout title="百位作家画廊">
+  <div class="hero-section">
+    <div class="hero-seal"></div>
+    <div class="hero-inner">
+      <div class="hero-brush-line"></div>
+      <h1>百位<span class="accent-char">作家</span>画廊</h1>
+      <p class="hero-subtitle">探索一百位改变人类文学史的伟大灵魂</p>
+      <p class="hero-desc">从鲁迅到莎士比亚，从卡夫卡到马尔克斯——横跨东西方的文学宇宙，在这里交汇</p>
+      <div class="hero-brush-line"></div>
+    </div>
+  </div>
+
+  <!-- 随机探索 + 今日文学史 -->
+  <div class="home-actions-bar">
+    <a href={`/writer/${randomWriterId}.html`} class="random-explore-btn">
+      <span class="btn-icon">📖</span>
+      <span class="btn-text">邂逅一位作家</span>
+    </a>
+    {todayEvents.length > 0 && (
+      <div class="today-history">
+        <div class="today-label">
+          <span class="today-icon">📜</span>
+          今日文学史 · {todayMonth}月{todayDay}日
+        </div>
+        <div class="today-events">
+          {todayEvents.map(ev => (
+            <div class="today-event">
+              <span class="today-year">{ev.year}</span>
+              <a href={`/writer/${ev.writerId}.html`} class="today-writer">{ev.writerName}</a>
+              <span class="today-dot">·</span>
+              <span class="today-desc">{ev.event}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+
+  <WriterSearch client:load writers={JSON.stringify(writerCards)} />
+
+  <!-- 影响力网络图 -->
+  <div class="influence-section-home">
+    <h2 class="home-section-heading">影响力<span style="color:var(--c-accent);">网络</span></h2>
+    <p class="section-desc">作家之间的影响关系——谁启发了谁，谁传承了谁</p>
+    <InfluenceGraph client:visible writers={JSON.stringify(writerGraph)} />
+  </div>
+</BaseLayout>

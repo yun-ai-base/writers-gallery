@@ -1,0 +1,33 @@
+{
+  "id": "kundera",
+  "name": "昆德拉",
+  "nameEn": "Milan Kundera",
+  "alias": "米兰·昆德拉",
+  "nationality": "捷克",
+  "era": "20世纪",
+  "birthYear": 1929,
+  "deathYear": 2023,
+  "literaryMovement": "存在主义 / 历史与个人",
+  "influencedBy": [
+    "dostoevsky",
+    "camus"
+  ],
+  "influenced": [
+    "pamuk",
+    "yu-hua",
+    "wang-xiaobo"
+  ],
+  "awards": [
+    "存在主义小说巨匠"
+  ],
+  "summary": "以《生命中不能承受之轻》书写历史重压下个人的轻盈与沉重，存在主义小说的巅峰",
+  "tags": [
+    "存在主义",
+    "轻与重",
+    "历史",
+    "个人",
+    "布拉格"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

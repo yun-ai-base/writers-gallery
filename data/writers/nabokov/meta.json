@@ -1,0 +1,35 @@
+{
+  "id": "nabokov",
+  "name": "纳博科夫",
+  "nameEn": "Vladimir Nabokov",
+  "alias": "",
+  "nationality": "俄国/美国",
+  "era": "20世纪",
+  "birthYear": 1899,
+  "deathYear": 1977,
+  "literaryMovement": "现代主义 / 元小说",
+  "influencedBy": [
+    "joyce",
+    "kafka",
+    "flaubert",
+    "chekhov"
+  ],
+  "influenced": [
+    "calvino",
+    "kundera",
+    "eco"
+  ],
+  "awards": [
+    "跨语言小说大师"
+  ],
+  "summary": "跨越俄语和英语的文学天才，以《洛丽塔》挑战道德边界与叙事极限",
+  "tags": [
+    "洛丽塔",
+    "跨语言",
+    "道德边界",
+    "语言游戏",
+    "蝴蝶"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

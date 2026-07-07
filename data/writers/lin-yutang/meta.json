@@ -1,0 +1,32 @@
+{
+  "id": "lin-yutang",
+  "name": "林语堂",
+  "nameEn": "Lin Yutang",
+  "alias": "",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1895,
+  "deathYear": 1976,
+  "literaryMovement": "幽默文学 / 中英双语写作",
+  "influencedBy": [
+    "lu-xun",
+    "shen-congwen"
+  ],
+  "influenced": [
+    "qian-zhongshu",
+    "wang-xiaobo"
+  ],
+  "awards": [
+    "诺贝尔文学奖提名"
+  ],
+  "summary": "中英双语写作的文学大师，以幽默闲适的笔调向世界介绍中国文化",
+  "tags": [
+    "幽默",
+    "双语",
+    "闲适",
+    "中西文化",
+    "散文"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

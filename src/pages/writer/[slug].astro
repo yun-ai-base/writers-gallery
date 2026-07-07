@@ -1,0 +1,155 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import WriterTabs from '../../components/WriterTabs.vue';
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { marked } from 'marked';
+
+marked.setOptions({ breaks: true, gfm: true });
+
+export function getStaticPaths() {
+  const allMeta = import.meta.glob('../../../data/writers/*/meta.json', { eager: true });
+  const allTimelines = import.meta.glob('../../../data/writers/*/timeline.json', { eager: true });
+  const allThoughts = import.meta.glob('../../../data/writers/*/thoughts.json', { eager: true });
+  const allQuotes = import.meta.glob('../../../data/writers/*/quotes.json', { eager: true });
+  const allWorks = import.meta.glob('../../../data/writers/*/works/*.json', { eager: true });
+
+  const metaEntries = Object.entries(allMeta).map(([path, mod]) => ({ path, data: mod.default || mod }));
+  const tlEntries = Object.entries(allTimelines).map(([path, mod]) => ({ path, data: mod.default || mod }));
+  const thEntries = Object.entries(allThoughts).map(([path, mod]) => ({ path, data: mod.default || mod }));
+  const qEntries = Object.entries(allQuotes).map(([path, mod]) => ({ path, data: mod.default || mod }));
+  const wEntries = Object.entries(allWorks).map(([path, mod]) => ({ path, data: mod.default || mod }));
+
+  const allWriters = metaEntries.map(m => m.data);
+
+  return metaEntries.map(({ path, data }) => {
+    const slug = data.id;
+
+    // Read biography markdown directly with fs (Astro glob doesn't expose rawContent for .md files)
+    let biographyHtml = '';
+    try {
+      const bioUrl = new URL(`../../../data/writers/${slug}/biography.md`, import.meta.url);
+      const raw = readFileSync(fileURLToPath(bioUrl), 'utf-8');
+      const md = raw.replace(/^---[\s\S]*?---\n*/, ''); // strip frontmatter if present
+      biographyHtml = marked.parse(md);
+    } catch (e) {
+      // No biography file found
+    }
+
+    const tlEntry = tlEntries.find(t => t.path.includes(`/${slug}/timeline.json`));
+    const timeline = tlEntry ? tlEntry.data : [];
+
+    const thEntry = thEntries.find(t => t.path.includes(`/${slug}/thoughts.json`));
+    const thoughts = thEntry ? thEntry.data : [];
+
+    const qEntry = qEntries.find(q => q.path.includes(`/${slug}/quotes.json`));
+    const quotes = qEntry ? qEntry.data : [];
+
+    const works = wEntries.filter(w => w.path.includes(`/${slug}/works/`)).map(w => w.data);
+
+    return {
+      params: { slug },
+      props: {
+        meta: data,
+        biographyHtml,
+        timeline,
+        thoughts,
+        quotes,
+        works,
+        allWriters
+      }
+    };
+  });
+}
+
+const { meta, biographyHtml, timeline, thoughts, quotes, works, allWriters } = Astro.props;
+const slug = meta.id;
+const isCn = meta.nationality === '中国';
+const heroClass = isCn ? 'cn-hero' : 'en-hero';
+
+// JSON-LD structured data
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": meta.name,
+  "alternateName": meta.alias || meta.nameEn,
+  "birthDate": meta.birthYear?.toString(),
+  "deathDate": meta.deathYear?.toString(),
+  "nationality": meta.nationality,
+  "description": meta.summary,
+  "knowsAbout": meta.tags?.join(', ')
+};
+---
+
+<BaseLayout title={`${meta.name} - 百位作家画廊`} jsonLd={JSON.stringify(jsonLd)}>
+  <div class="writer-detail">
+    <div class="writer-hero {heroClass}">
+      <div class="hero-seal"></div>
+      <div class="writer-hero-inner">
+        <div class="hero-avatar">{meta.name.charAt(0)}</div>
+        <div class="hero-text">
+          <h1>{meta.name}</h1>
+          {meta.nameEn && <div class="hero-en-name">{meta.nameEn}</div>}
+          {meta.alias && <div class="hero-alias">笔名：{meta.alias}</div>}
+          <div class="hero-meta-line">
+            <span>{meta.nationality}</span>
+            <span class="dot"></span>
+            <span>{meta.era}</span>
+            <span class="dot"></span>
+            <span>{meta.birthYear}–{meta.deathYear}</span>
+            <span class="dot"></span>
+            <span>{meta.literaryMovement}</span>
+          </div>
+          <div class="hero-tags">
+            {meta.tags?.map(tag => <span class="tag">{tag}</span>)}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {(meta.influencedBy?.length || meta.influenced?.length) && (
+      <div class="influence-section">
+        {meta.influencedBy?.length && (
+          <div class="influence-row">
+            <div class="influence-label">受影响于</div>
+            <div class="influence-links">
+              {meta.influencedBy.map(id => {
+                const w = allWriters.find(w2 => w2.id === id);
+                const linkClass = w ? (w.nationality === '中国' ? 'cn-link' : 'en-link') : 'unknown-link';
+                return w
+                  ? <a href={`/writer/${id}.html`} class={`influence-link ${linkClass}`}>{w.name}</a>
+                  : <span class={`influence-link unknown-link`}>{id}</span>;
+              })}
+            </div>
+          </div>
+        )}
+        {meta.influenced?.length && (
+          <div class="influence-row">
+            <div class="influence-label">影响了</div>
+            <div class="influence-links">
+              {meta.influenced.map(id => {
+                const w = allWriters.find(w2 => w2.id === id);
+                const linkClass = w ? (w.nationality === '中国' ? 'cn-link' : 'en-link') : 'unknown-link';
+                return w
+                  ? <a href={`/writer/${id}.html`} class={`influence-link ${linkClass}`}>{w.name}</a>
+                  : <span class={`influence-link unknown-link`}>{id}</span>;
+              })}
+            </div>
+          </div>
+        )}
+      </div>
+    )}
+
+    <WriterTabs
+      client:load
+      biographyHtml={JSON.stringify(biographyHtml)}
+      timeline={JSON.stringify(timeline)}
+      thoughts={JSON.stringify(thoughts)}
+      quotes={JSON.stringify(quotes)}
+      works={JSON.stringify(works)}
+      writerId={slug}
+      writerName={meta.name}
+      isCn={isCn ? 'true' : 'false'}
+    />
+  </div>
+</BaseLayout>

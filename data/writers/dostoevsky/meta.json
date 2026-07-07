@@ -1,0 +1,35 @@
+{
+  "id": "dostoevsky",
+  "name": "陀思妥耶夫斯基",
+  "nameEn": "Fyodor Dostoevsky",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "19世纪",
+  "birthYear": 1821,
+  "deathYear": 1881,
+  "literaryMovement": "心理现实主义 / 存在主义先驱",
+  "influencedBy": [
+    "pushkin",
+    "gogol",
+    "balzac"
+  ],
+  "influenced": [
+    "kafka",
+    "camus",
+    "freud",
+    "niemeyer"
+  ],
+  "awards": [
+    "心理小说巨匠"
+  ],
+  "summary": "人类灵魂最深处的勘探者，以《罪与罚》《卡拉马佐夫兄弟》拷问信仰、自由与罪恶的终极边界",
+  "tags": [
+    "心理深度",
+    "罪恶",
+    "信仰",
+    "存在主义",
+    "苦难"
+  ],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

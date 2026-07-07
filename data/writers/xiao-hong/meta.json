@@ -1,0 +1,18 @@
+{
+  "id": "xiao-hong",
+  "name": "萧红",
+  "nameEn": "Xiao Hong",
+  "alias": "张乃莹",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1911,
+  "deathYear": 1942,
+  "literaryMovement": "左翼文学",
+  "influencedBy": ["lu-xun", "shen-congwen"],
+  "influenced": ["tie-ning"],
+  "awards": ["东北文学先驱"],
+  "summary": "呼兰河畔的漂泊歌者，以独特的散文化叙事书写东北大地的苦难与生命力",
+  "tags": ["东北文学", "散文化叙事", "女性写作", "左翼文学"],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

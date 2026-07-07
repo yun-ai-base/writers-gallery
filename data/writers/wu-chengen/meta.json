@@ -1,0 +1,31 @@
+{
+  "id": "wu-chengen",
+  "name": "吴承恩",
+  "nameEn": "Wu Cheng'en",
+  "alias": "",
+  "nationality": "中国",
+  "era": "明代",
+  "birthYear": 1500,
+  "deathYear": 1582,
+  "literaryMovement": "神魔小说",
+  "influencedBy": [
+    "luo-guanzhong",
+    "shi-naian"
+  ],
+  "influenced": [
+    "cao-xueqin"
+  ],
+  "awards": [
+    "四大名著"
+  ],
+  "summary": "《西游记》作者，以奇幻想象力开创了中国神魔小说的传统，塑造了孙悟空等永恒文学形象",
+  "tags": [
+    "神话",
+    "冒险",
+    "佛教",
+    "讽刺",
+    "想象力"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "wang-zengqi",
+  "name": "汪曾祺",
+  "nameEn": "Wang Zengqi",
+  "alias": "",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1920,
+  "deathYear": 1997,
+  "literaryMovement": "散文化小说 / 诗意写实",
+  "influencedBy": [
+    "shen-congwen",
+    "lu-xun"
+  ],
+  "influenced": [
+    "jia-pingwa",
+    "a-cheng",
+    "mo-yan"
+  ],
+  "awards": [
+    "散文化小说大师"
+  ],
+  "summary": "中国散文化小说的大师，以淡泊温润的笔触书写日常生活的诗意与人情之美",
+  "tags": [
+    "散文化",
+    "日常",
+    "诗意",
+    "人情",
+    "淡泊"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

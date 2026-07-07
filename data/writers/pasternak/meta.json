@@ -1,0 +1,34 @@
+{
+  "id": "pasternak",
+  "name": "帕斯捷尔纳克",
+  "nameEn": "Boris Pasternak",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "20世纪",
+  "birthYear": 1890,
+  "deathYear": 1960,
+  "literaryMovement": "苏联文学 / 诗歌与小说",
+  "influencedBy": [
+    "pushkin",
+    "goethe",
+    "shakespeare"
+  ],
+  "influenced": [
+    "solzhenitsyn",
+    "milosz",
+    "kundera"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1958)"
+  ],
+  "summary": "以《日瓦戈医生》书写俄国革命中个体的命运与爱情，被迫拒领诺贝尔奖的诗人",
+  "tags": [
+    "日瓦戈",
+    "诺贝尔奖",
+    "革命",
+    "爱情",
+    "拒领"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

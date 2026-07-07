@@ -1,0 +1,31 @@
+{
+  "id": "zola",
+  "name": "左拉",
+  "nameEn": "Émile Zola",
+  "alias": "",
+  "nationality": "法国",
+  "era": "19世纪",
+  "birthYear": 1840,
+  "deathYear": 1902,
+  "literaryMovement": "自然主义",
+  "influencedBy": [
+    "balzac",
+    "flaubert"
+  ],
+  "influenced": [
+    "sinclair"
+  ],
+  "awards": [
+    "自然主义领袖"
+  ],
+  "summary": "自然主义文学的领袖，以《萌芽》等作品科学地书写社会底层与阶级冲突",
+  "tags": [
+    "自然主义",
+    "底层",
+    "阶级",
+    "科学",
+    "萌芽"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

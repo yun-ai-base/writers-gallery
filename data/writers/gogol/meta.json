@@ -1,0 +1,32 @@
+{
+  "id": "gogol",
+  "name": "果戈里",
+  "nameEn": "Nikolai Gogol",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "19世纪",
+  "birthYear": 1809,
+  "deathYear": 1852,
+  "literaryMovement": "现实主义 / 讽刺文学",
+  "influencedBy": [
+    "pushkin"
+  ],
+  "influenced": [
+    "dostoevsky",
+    "tolstoy",
+    "chekhov"
+  ],
+  "awards": [
+    "俄国现实主义先驱"
+  ],
+  "summary": "俄国现实主义文学的先驱，以荒诞讽刺的笔法揭示俄国社会的丑陋与怪诞",
+  "tags": [
+    "讽刺",
+    "荒诞",
+    "死魂灵",
+    "怪诞",
+    "俄国社会"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

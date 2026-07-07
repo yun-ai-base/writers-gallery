@@ -1,0 +1,34 @@
+{
+  "id": "ostrovsky",
+  "name": "奥斯特洛夫斯基",
+  "nameEn": "Nikolai Ostrovsky",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "20世纪",
+  "birthYear": 1904,
+  "deathYear": 1936,
+  "literaryMovement": "苏联文学 / 社会主义现实主义",
+  "influencedBy": [
+    "tolstoy",
+    "pushkin",
+    "lermontov"
+  ],
+  "influenced": [
+    "lu-yao",
+    "ba-jin",
+    "mao-dun"
+  ],
+  "awards": [
+    "苏联文学经典"
+  ],
+  "summary": "以《钢铁是怎样炼成的》书写革命者的理想与意志，苏联文学的永恒符号",
+  "tags": [
+    "钢铁",
+    "理想",
+    "意志",
+    "革命",
+    "苏联"
+  ],
+  "influenceScore": 6,
+  "avatar": "/images/portraits/placeholder.svg"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "sholokhov",
+  "name": "肖洛霍夫",
+  "nameEn": "Mikhail Sholokhov",
+  "alias": "",
+  "nationality": "俄国",
+  "era": "20世纪",
+  "birthYear": 1905,
+  "deathYear": 1984,
+  "literaryMovement": "社会主义现实主义 / 史诗小说",
+  "influencedBy": [
+    "tolstoy",
+    "gogol",
+    "turgenev"
+  ],
+  "influenced": [
+    "lu-yao",
+    "mo-yan"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1965)"
+  ],
+  "summary": "以《静静的顿河》书写俄国革命中哥萨克民族的命运巨变，史诗级现实主义小说",
+  "tags": [
+    "诺贝尔奖",
+    "顿河",
+    "哥萨克",
+    "史诗",
+    "革命"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

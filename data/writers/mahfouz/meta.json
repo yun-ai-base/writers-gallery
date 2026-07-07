@@ -1,0 +1,32 @@
+{
+  "id": "mahfouz",
+  "name": "马哈福兹",
+  "nameEn": "Naguib Mahfouz",
+  "alias": "",
+  "nationality": "埃及",
+  "era": "20世纪",
+  "birthYear": 1911,
+  "deathYear": 2006,
+  "literaryMovement": "现实主义 / 阿拉伯文学",
+  "influencedBy": [
+    "balzac",
+    "flaubert"
+  ],
+  "influenced": [
+    "pamuk",
+    "mo-yan"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1988)"
+  ],
+  "summary": "阿拉伯世界首位诺贝尔文学奖得主，以《开罗三部曲》全景书写埃及社会的变迁",
+  "tags": [
+    "诺贝尔奖",
+    "开罗",
+    "阿拉伯",
+    "变迁",
+    "三部曲"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

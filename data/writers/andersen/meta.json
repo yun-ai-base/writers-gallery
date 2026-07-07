@@ -1,0 +1,29 @@
+{
+  "id": "andersen",
+  "name": "安徒生",
+  "nameEn": "Hans Christian Andersen",
+  "alias": "",
+  "nationality": "丹麦",
+  "era": "19世纪",
+  "birthYear": 1805,
+  "deathYear": 1875,
+  "literaryMovement": "童话文学",
+  "influencedBy": [],
+  "influenced": [
+    "carroll",
+    "grimm-tradition"
+  ],
+  "awards": [
+    "童话之王"
+  ],
+  "summary": "世界童话之王，以《卖火柴的小女孩》《丑小鸭》等故事书写苦难中的希望与想象力的奇迹",
+  "tags": [
+    "童话",
+    "希望",
+    "想象",
+    "苦难",
+    "诗意"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

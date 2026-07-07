@@ -1,0 +1,29 @@
+{
+  "id": "shelley",
+  "name": "雪莱",
+  "nameEn": "Percy Bysshe Shelley",
+  "alias": "",
+  "nationality": "英国",
+  "era": "19世纪",
+  "birthYear": 1792,
+  "deathYear": 1822,
+  "literaryMovement": "浪漫主义",
+  "influencedBy": [],
+  "influenced": [
+    "byron",
+    "yeats"
+  ],
+  "awards": [
+    "浪漫主义理想诗人"
+  ],
+  "summary": "浪漫主义最理想的诗人，以《西风颂》等作品歌颂自由、美与变革的力量",
+  "tags": [
+    "理想主义",
+    "自由",
+    "西风颂",
+    "变革",
+    "诗意"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

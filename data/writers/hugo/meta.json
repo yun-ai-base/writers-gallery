@@ -1,0 +1,32 @@
+{
+  "id": "hugo",
+  "name": "雨果",
+  "nameEn": "Victor Hugo",
+  "alias": "",
+  "nationality": "法国",
+  "era": "19世纪",
+  "birthYear": 1802,
+  "deathYear": 1885,
+  "literaryMovement": "浪漫主义 / 社会批判",
+  "influencedBy": [
+    "shakespeare",
+    "dante"
+  ],
+  "influenced": [
+    "dickens",
+    "zola"
+  ],
+  "awards": [
+    "法国浪漫主义领袖"
+  ],
+  "summary": "法国浪漫主义的领袖，以《悲惨世界》书写底层苦难与人道主义的光辉，文学与社会正义的完美融合",
+  "tags": [
+    "浪漫主义",
+    "人道主义",
+    "悲惨世界",
+    "底层",
+    "正义"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "homer",
+  "name": "荷马",
+  "nameEn": "Homer",
+  "alias": "",
+  "nationality": "古希腊",
+  "era": "公元前8世纪",
+  "birthYear": -800,
+  "deathYear": -700,
+  "literaryMovement": "史诗传统",
+  "influencedBy": [],
+  "influenced": [
+    "virgil",
+    "dante",
+    "shakespeare",
+    "tolstoy"
+  ],
+  "awards": [
+    "西方文学源头"
+  ],
+  "summary": "西方文学的源头，以《伊利亚特》和《奥德赛》奠定了史诗叙事的永恒范式",
+  "tags": [
+    "史诗",
+    "英雄",
+    "命运",
+    "神话",
+    "源头"
+  ],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

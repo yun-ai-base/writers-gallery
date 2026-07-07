@@ -1,0 +1,32 @@
+{
+  "id": "eco",
+  "name": "埃科",
+  "nameEn": "Umberto Eco",
+  "alias": "翁贝托·埃科",
+  "nationality": "意大利",
+  "era": "当代",
+  "birthYear": 1932,
+  "deathYear": 2016,
+  "literaryMovement": "后现代主义 / 学者型小说",
+  "influencedBy": [
+    "borges",
+    "joyce"
+  ],
+  "influenced": [
+    "pamuk",
+    "calvino"
+  ],
+  "awards": [
+    "学者型小说家"
+  ],
+  "summary": "以《玫瑰之名》将中世纪修道院变成符号迷宫，学者型小说的最高代表",
+  "tags": [
+    "玫瑰之名",
+    "符号学",
+    "迷宫",
+    "中世纪",
+    "后现代"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

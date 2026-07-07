@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ComparePanel from '../components/ComparePanel.vue';
+
+const allMeta = import.meta.glob('../../data/writers/*/meta.json', { eager: true });
+const allThoughts = import.meta.glob('../../data/writers/*/thoughts.json', { eager: true });
+const allQuotes = import.meta.glob('../../data/writers/*/quotes.json', { eager: true });
+const allWorks = import.meta.glob('../../data/writers/*/works/*.json', { eager: true });
+
+const writers = Object.values(allMeta).map(m => m.default || m);
+
+const thoughtsMap = {};
+for (const [path, mod] of Object.entries(allThoughts)) {
+  const slug = path.match(/writers\/([^\/]+)\/thoughts\.json/)?.[1];
+  if (slug) thoughtsMap[slug] = mod.default || mod;
+}
+
+const quotesMap = {};
+for (const [path, mod] of Object.entries(allQuotes)) {
+  const slug = path.match(/writers\/([^\/]+)\/quotes\.json/)?.[1];
+  if (slug) quotesMap[slug] = mod.default || mod;
+}
+
+const worksMap = {};
+for (const [path, mod] of Object.entries(allWorks)) {
+  const slug = path.match(/writers\/([^\/]+)\/works/)?.[1];
+  if (slug) {
+    if (!worksMap[slug]) worksMap[slug] = [];
+    worksMap[slug].push(mod.default || mod);
+  }
+}
+---
+
+<BaseLayout title="作家对比 - 百位作家画廊">
+  <div class="compare-header">
+    <h1>作家<span style="color:var(--c-accent);">对比</span></h1>
+    <p class="compare-subtitle">选择两位或三位作家，探索他们的思想交锋与文学传承</p>
+  </div>
+
+  <ComparePanel
+    client:load
+    writers={JSON.stringify(writers)}
+    thoughtsData={JSON.stringify(thoughtsMap)}
+    quotesData={JSON.stringify(quotesMap)}
+    worksData={JSON.stringify(worksMap)}
+  />
+</BaseLayout>

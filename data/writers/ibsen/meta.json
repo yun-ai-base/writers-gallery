@@ -1,0 +1,32 @@
+{
+  "id": "ibsen",
+  "name": "易卜生",
+  "nameEn": "Henrik Ibsen",
+  "alias": "",
+  "nationality": "挪威",
+  "era": "19世纪",
+  "birthYear": 1828,
+  "deathYear": 1906,
+  "literaryMovement": "现代戏剧 / 社会批判",
+  "influencedBy": [
+    "shakespeare"
+  ],
+  "influenced": [
+    "shaw",
+    "cao-yu",
+    "strindberg"
+  ],
+  "awards": [
+    "现代戏剧之父"
+  ],
+  "summary": "现代戏剧之父，以《玩偶之家》揭示女性解放与社会压迫的冲突，开创了现代社会问题剧",
+  "tags": [
+    "玩偶之家",
+    "女性解放",
+    "社会问题",
+    "戏剧",
+    "挪威"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

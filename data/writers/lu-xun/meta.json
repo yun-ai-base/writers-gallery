@@ -1,0 +1,18 @@
+{
+  "id": "lu-xun",
+  "name": "鲁迅",
+  "nameEn": "Lu Xun",
+  "alias": "周树人",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1881,
+  "deathYear": 1936,
+  "literaryMovement": "现代文学",
+  "influencedBy": ["tolstoy", "dostoevsky", "nietzsche"],
+  "influenced": ["lao-she", "ba-jin", "yu-hua", "mo-yan"],
+  "awards": ["新中国文学奠基人"],
+  "summary": "中国现代文学的奠基人，以犀利的笔触解剖旧社会的弊病，唤醒国民的良知",
+  "tags": ["现代文学", "启蒙主义", "左翼文学", "杂文大师", "国民性批判"],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "text": "一个人早晨醒来，发现自己变成了一只巨大的甲虫",
+    "original": "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheuren Ungeziefer verwandelt",
+    "source": "《变形记》",
+    "context": "文学史上最著名的开篇之一，以极致的冷静宣告了异化的降临"
+  },
+  {
+    "text": "一定是有人诬告了约瑟夫·K，因为他没有做过任何坏事，一天早晨却被逮捕了",
+    "original": "Someone must have been telling lies about Joseph K., for without having done anything wrong he was arrested one fine morning",
+    "source": "《审判》",
+    "context": "《审判》开篇，无名之罪的恐惧从此笼罩整个现代文学"
+  },
+  {
+    "text": "我无法证实自己是谁，我甚至无法证实自己是一个土地测量员",
+    "original": "Ich kann mich nicht beweisen, ich kann mich nicht beweisen, dass ich Landvermesser bin",
+    "source": "《城堡》",
+    "context": "身份的不确定性——现代人在体制中无法自证的困境"
+  },
+  {
+    "text": "写作是我存在的唯一证明",
+    "original": "Schreiben ist die einzige Existenzbeweis",
+    "source": "卡夫卡日记",
+    "context": "写作不是选择，而是生存的唯一方式——不写作即不存在"
+  },
+  {
+    "text": "书必须是凿开我们心中冰封海洋的斧子",
+    "original": "Ein Buch muss die Axt sein für das gefrorene Meer in uns",
+    "source": "卡夫卡致布罗德信",
+    "context": "对文学功能的极端定义——书不是安慰，而是击碎"
+  },
+  {
+    "text": "所有人类的错误无非是急躁：过早地打破了方法上的束缚",
+    "original": "Alle menschlichen Fehler sind Eile: das过早ige Aufbrechen der methodischen Schranke",
+    "source": "卡夫卡日记",
+    "context": "对急躁与过早行动的反思，真正的智慧需要等待与忍受"
+  },
+  {
+    "text": "在斗争中，你不应只关注对手，而应关注你自己——因为对手不过是你的镜像",
+    "original": "Im Kampf darfst du nicht auf den Gegner schauen, sondern auf dich selbst",
+    "source": "卡夫卡日记",
+    "context": "斗争的本质是与自己的对抗，外在的敌人只是内在困境的投射"
+  },
+  {
+    "text": "道路没有尽头，存在的只是行走本身",
+    "original": "Es gibt kein Ziel, sondern nur den Weg",
+    "source": "卡夫卡日记",
+    "context": "对目的论的根本否定——意义不在终点，而在行走的过程"
+  }
+]

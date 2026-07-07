@@ -1,0 +1,18 @@
+{
+  "id": "hemingway",
+  "name": "欧内斯特·海明威",
+  "nameEn": "Ernest Hemingway",
+  "alias": "海明威",
+  "nationality": "美国",
+  "era": "20世纪",
+  "birthYear": 1899,
+  "deathYear": 1961,
+  "literaryMovement": "迷惘的一代",
+  "influencedBy": ["tolstoy", "twain"],
+  "influenced": ["carver", "mishima"],
+  "awards": ["诺贝尔文学奖(1954)"],
+  "summary": "冰山理论的缔造者，以最少的文字承载最深的力量，定义了20世纪的硬汉美学",
+  "tags": ["冰山理论", "硬汉美学", "战争文学", "极简主义"],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

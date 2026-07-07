@@ -1,0 +1,31 @@
+{
+  "id": "wang-xiaobo",
+  "name": "王小波",
+  "nameEn": "Wang Xiaobo",
+  "alias": "",
+  "nationality": "中国",
+  "era": "当代",
+  "birthYear": 1952,
+  "deathYear": 1997,
+  "literaryMovement": "思想型文学 / 黑色幽默",
+  "influencedBy": [
+    "a-cheng",
+    "calvino"
+  ],
+  "influenced": [
+    "yu-hua"
+  ],
+  "awards": [
+    "独立思想者"
+  ],
+  "summary": "中国当代最具独立精神的作家，以黑色幽默和理性思辨书写自由与荒诞",
+  "tags": [
+    "自由",
+    "幽默",
+    "理性",
+    "荒诞",
+    "独立"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

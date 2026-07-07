@@ -1,0 +1,29 @@
+{
+  "id": "cao-xueqin",
+  "name": "曹雪芹",
+  "nameEn": "Cao Xueqin",
+  "alias": "曹霑",
+  "nationality": "中国",
+  "era": "清代",
+  "birthYear": 1715,
+  "deathYear": 1763,
+  "literaryMovement": "古典小说巅峰",
+  "influencedBy": [],
+  "influenced": [
+    "ba-jin",
+    "lao-she"
+  ],
+  "awards": [
+    "中国文学最高成就"
+  ],
+  "summary": "《红楼梦》作者，中国古典文学最伟大的小说家，以一部作品铸就了不可逾越的文学高峰",
+  "tags": [
+    "古典小说",
+    "红楼梦",
+    "诗词",
+    "贵族生活",
+    "悲剧"
+  ],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

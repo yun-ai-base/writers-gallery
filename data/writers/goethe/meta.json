@@ -1,0 +1,33 @@
+{
+  "id": "goethe",
+  "name": "歌德",
+  "nameEn": "Johann Wolfgang von Goethe",
+  "alias": "",
+  "nationality": "德国",
+  "era": "18-19世纪",
+  "birthYear": 1749,
+  "deathYear": 1832,
+  "literaryMovement": "浪漫主义 / 古典人文主义",
+  "influencedBy": [
+    "shakespeare",
+    "dante"
+  ],
+  "influenced": [
+    "schiller",
+    "thomas-mann",
+    "kafka"
+  ],
+  "awards": [
+    "德国文学巨匠"
+  ],
+  "summary": "德国文学的最高峰，以《浮士德》书写人类对知识、美与权力的永恒追求",
+  "tags": [
+    "浮士德",
+    "德国文学",
+    "人文主义",
+    "追求",
+    "永恒"
+  ],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

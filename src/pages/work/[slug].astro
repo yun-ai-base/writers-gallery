@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  const allWorks = import.meta.glob('../../../data/writers/*/works/*.json', { eager: true });
+  const allMeta = import.meta.glob('../../../data/writers/*/meta.json', { eager: true });
+
+  const workEntries = Object.entries(allWorks).map(([path, mod]) => ({
+    path,
+    data: mod.default || mod
+  }));
+
+  const writerEntries = Object.entries(allMeta).map(([path, mod]) => ({
+    path,
+    data: mod.default || mod
+  }));
+
+  return workEntries.map(({ path, data }) => {
+    const writerId = path.match(/writers\/([^\/]+)\/works/)?.[1];
+    const writerMeta = writerEntries.find(w => w.data.id === writerId)?.data;
+    return {
+      params: { slug: data.id },
+      props: { workData: data, writerMeta }
+    };
+  });
+}
+
+const { workData, writerMeta } = Astro.props;
+const isCn = writerMeta.nationality === '中国';
+---
+
+<BaseLayout title={`${workData.title} - ${writerMeta.name} - 百位作家画廊`}>
+  <div class="work-detail">
+    <a href={`/writer/${writerMeta.id}.html`} class="work-back-link">← 回到 {writerMeta.name}</a>
+
+    <h1>{workData.title}</h1>
+    <div class="work-writer-link">
+      <a href={`/writer/${writerMeta.id}.html`}>{writerMeta.name}</a>
+    </div>
+    <div class="work-genre-line">{workData.publishYear} · {workData.genre?.join(' / ')} · 评分 {workData.rating}/10</div>
+
+    <div class="section-heading">内容简介</div>
+    <p style="font-family:var(--f-serif); font-size:0.9375rem; line-height:2; color:var(--c-ink-2); text-align:justify; letter-spacing:0.02em;">{workData.synopsis}</p>
+
+    {workData.writingIntentAndBackground && (
+      <div>
+        <div class="section-heading">写作意图与背景</div>
+        <div class="writing-intent-box">
+          <div class="intent-text">{workData.writingIntentAndBackground}</div>
+        </div>
+      </div>
+    )}
+
+    {workData.excerpts?.length && (
+      <div>
+        <div class="section-heading">精彩段落</div>
+        {workData.excerpts.map(excerpt => (
+          <div class="excerpt-block">{excerpt}</div>
+        ))}
+      </div>
+    )}
+
+    <div class="section-heading">AI 文学点评</div>
+    <div class="ai-commentary-box">
+      <div class="ai-badge">AI COMMENTARY</div>
+      <div class="ai-text">{workData.aiCommentary}</div>
+    </div>
+
+    <div class="section-heading">社会影响与评价</div>
+    <div class="social-impact-box">
+      <div class="impact-text">{workData.socialImpact}</div>
+    </div>
+
+    {workData.doubanUrl && (
+      <div class="douban-link-section">
+        <a href={workData.doubanUrl} target="_blank" rel="noopener noreferrer" class="douban-btn">
+          📖 在豆瓣查看此作品
+        </a>
+      </div>
+    )}
+
+    {workData.readerReviews?.length && (
+      <div>
+        <div class="section-heading">读者评价</div>
+        {workData.readerReviews.map(review => (
+          <div class="review-item">
+            <span class="reviewer-name">{review.reviewer}</span>
+            <span class="review-rating">{review.rating}/10</span>
+            <div class="review-comment">{review.comment}</div>
+          </div>
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .writing-intent-box {
+    background: linear-gradient(135deg, rgba(46,125,140,0.06), rgba(192,72,81,0.04));
+    border-left: 3px solid var(--c-blue);
+    padding: 1rem 1.2rem;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 1.5rem;
+  }
+  .intent-text {
+    font-family: var(--f-serif);
+    font-size: 0.9375rem;
+    line-height: 2;
+    color: var(--c-ink-2);
+    text-align: justify;
+  }
+  .douban-link-section {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+  .douban-btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #007722;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+    letter-spacing: 0.03em;
+  }
+  .douban-btn:hover {
+    background: #009933;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(0,119,34,0.3);
+  }
+</style>

@@ -1,0 +1,29 @@
+{
+  "id": "natsume-soseki",
+  "name": "夏目漱石",
+  "nameEn": "Natsume Sōseki",
+  "alias": "",
+  "nationality": "日本",
+  "era": "近代",
+  "birthYear": 1867,
+  "deathYear": 1916,
+  "literaryMovement": "日本近代文学",
+  "influencedBy": [],
+  "influenced": [
+    "akutagawa",
+    "kawabata"
+  ],
+  "awards": [
+    "日本近代文学之父"
+  ],
+  "summary": "日本近代文学之父，以《我是猫》等作品书写近代日本知识分子的苦闷与自嘲",
+  "tags": [
+    "我是猫",
+    "知识分子",
+    "讽刺",
+    "近代日本",
+    "苦闷"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

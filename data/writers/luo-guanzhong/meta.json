@@ -1,0 +1,32 @@
+{
+  "id": "luo-guanzhong",
+  "name": "罗贯中",
+  "nameEn": "Luo Guanzhong",
+  "alias": "",
+  "nationality": "中国",
+  "era": "元末明初",
+  "birthYear": 1330,
+  "deathYear": 1400,
+  "literaryMovement": "历史演义小说",
+  "influencedBy": [
+    "shi-naian",
+    "guan-hanqing"
+  ],
+  "influenced": [
+    "wu-chengen",
+    "cao-xueqin"
+  ],
+  "awards": [
+    "四大名著"
+  ],
+  "summary": "《三国演义》作者，开创了中国历史演义小说的先河，以宏大叙事书写英雄时代的兴亡",
+  "tags": [
+    "历史",
+    "战争",
+    "谋略",
+    "英雄",
+    "忠义"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

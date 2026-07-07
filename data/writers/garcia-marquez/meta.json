@@ -1,0 +1,18 @@
+{
+  "id": "garcia-marquez",
+  "name": "加布里埃尔·加西亚·马尔克斯",
+  "nameEn": "Gabriel García Márquez",
+  "alias": "马尔克斯",
+  "nationality": "哥伦比亚",
+  "era": "20世纪",
+  "birthYear": 1927,
+  "deathYear": 2014,
+  "literaryMovement": "魔幻现实主义",
+  "influencedBy": ["kafka", "faulkner", "hemingway"],
+  "influenced": ["mo-yan", "rushdie", "allende"],
+  "awards": ["诺贝尔文学奖(1982)"],
+  "summary": "魔幻现实主义的宗师，让虚构与现实在拉丁美洲的热土上沸腾交融",
+  "tags": ["魔幻现实主义", "拉美文学", "孤独叙事", "权力批判"],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "guan-hanqing",
+  "name": "关汉卿",
+  "nameEn": "Guan Hanqing",
+  "alias": "",
+  "nationality": "中国",
+  "era": "元代",
+  "birthYear": 1220,
+  "deathYear": 1300,
+  "literaryMovement": "元杂剧",
+  "influencedBy": [],
+  "influenced": [
+    "shi-naian",
+    "luo-guanzhong",
+    "wu-chengen"
+  ],
+  "awards": [
+    "元曲大家"
+  ],
+  "summary": "中国戏剧奠基人，元杂剧最伟大的剧作家，以《窦娥冤》等作品书写底层女性的苦难与抗争",
+  "tags": [
+    "戏剧",
+    "冤屈",
+    "女性",
+    "反抗",
+    "元曲"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}

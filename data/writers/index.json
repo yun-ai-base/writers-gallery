@@ -1,0 +1,1992 @@
+[
+  {
+    "id": "lu-xun",
+    "name": "鲁迅",
+    "nameEn": "Lu Xun",
+    "alias": "周树人",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1881,
+    "deathYear": 1936,
+    "literaryMovement": "现实主义 / 新文化运动",
+    "tags": [
+      "思想家",
+      "革命文学",
+      "讽刺",
+      "白话文学"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "lao-she",
+    "name": "老舍",
+    "nameEn": "Lao She",
+    "alias": "舒庆春",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1899,
+    "deathYear": 1966,
+    "literaryMovement": "现实主义 / 京味文学",
+    "tags": [
+      "京味文学",
+      "幽默",
+      "市民生活",
+      "话剧"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "ba-jin",
+    "name": "巴金",
+    "nameEn": "Ba Jin",
+    "alias": "李尧棠",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1904,
+    "deathYear": 2005,
+    "literaryMovement": "现实主义 / 无政府主义",
+    "tags": [
+      "激流三部曲",
+      "青年",
+      "反封建",
+      "情感"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "shen-congwen",
+    "name": "沈从文",
+    "nameEn": "Shen Congwen",
+    "alias": "沈岳焕",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1902,
+    "deathYear": 1988,
+    "literaryMovement": "乡土文学 / 抒情小说",
+    "tags": [
+      "乡土文学",
+      "湘西",
+      "抒情",
+      "诗意"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "xiao-hong",
+    "name": "萧红",
+    "nameEn": "Xiao Hong",
+    "alias": "张乃莹",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1911,
+    "deathYear": 1942,
+    "literaryMovement": "左翼文学 / 东北作家群",
+    "tags": [
+      "东北作家",
+      "女性",
+      "苦难",
+      "呼兰河"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "shakespeare",
+    "name": "莎士比亚",
+    "nameEn": "William Shakespeare",
+    "alias": "",
+    "nationality": "英国",
+    "era": "文艺复兴",
+    "birthYear": 1564,
+    "deathYear": 1616,
+    "literaryMovement": "文艺复兴 / 人文主义",
+    "tags": [
+      "戏剧",
+      "诗歌",
+      "悲剧",
+      "人文主义"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "tolstoy",
+    "name": "托尔斯泰",
+    "nameEn": "Leo Tolstoy",
+    "alias": "列夫·托尔斯泰",
+    "nationality": "俄国",
+    "era": "19世纪",
+    "birthYear": 1828,
+    "deathYear": 1910,
+    "literaryMovement": "现实主义",
+    "tags": [
+      "史诗",
+      "哲学",
+      "宗教",
+      "俄国社会"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "kafka",
+    "name": "卡夫卡",
+    "nameEn": "Franz Kafka",
+    "alias": "弗兰茨·卡夫卡",
+    "nationality": "奥地利",
+    "era": "20世纪",
+    "birthYear": 1883,
+    "deathYear": 1924,
+    "literaryMovement": "现代主义 / 存在主义",
+    "tags": [
+      "荒诞",
+      "存在主义",
+      "异化",
+      "官僚体制"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "hemingway",
+    "name": "海明威",
+    "nameEn": "Ernest Hemingway",
+    "alias": "",
+    "nationality": "美国",
+    "era": "20世纪",
+    "birthYear": 1899,
+    "deathYear": 1961,
+    "literaryMovement": "现代主义 / 迷惘的一代",
+    "tags": [
+      "冰山理论",
+      "硬汉",
+      "战争",
+      "简洁风格"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "garcia-marquez",
+    "name": "加西亚·马尔克斯",
+    "nameEn": "Gabriel García Márquez",
+    "alias": "",
+    "nationality": "哥伦比亚",
+    "era": "20世纪",
+    "birthYear": 1927,
+    "deathYear": 2014,
+    "literaryMovement": "魔幻现实主义",
+    "tags": [
+      "魔幻现实主义",
+      "拉美文学",
+      "百年孤独",
+      "诺贝尔奖"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "cao-xueqin",
+    "name": "曹雪芹",
+    "nameEn": "Cao Xueqin",
+    "alias": "曹霑",
+    "nationality": "中国",
+    "era": "清代",
+    "birthYear": 1715,
+    "deathYear": 1763,
+    "literaryMovement": "古典小说巅峰",
+    "tags": [
+      "古典小说",
+      "红楼梦",
+      "诗词",
+      "贵族生活",
+      "悲剧"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "wu-chengen",
+    "name": "吴承恩",
+    "nameEn": "Wu Cheng'en",
+    "alias": "",
+    "nationality": "中国",
+    "era": "明代",
+    "birthYear": 1500,
+    "deathYear": 1582,
+    "literaryMovement": "神魔小说",
+    "tags": [
+      "神话",
+      "冒险",
+      "佛教",
+      "讽刺",
+      "想象力"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "luo-guanzhong",
+    "name": "罗贯中",
+    "nameEn": "Luo Guanzhong",
+    "alias": "",
+    "nationality": "中国",
+    "era": "元末明初",
+    "birthYear": 1330,
+    "deathYear": 1400,
+    "literaryMovement": "历史演义小说",
+    "tags": [
+      "历史",
+      "战争",
+      "谋略",
+      "英雄",
+      "忠义"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "shi-naian",
+    "name": "施耐庵",
+    "nameEn": "Shi Nai'an",
+    "alias": "",
+    "nationality": "中国",
+    "era": "元末明初",
+    "birthYear": 1296,
+    "deathYear": 1372,
+    "literaryMovement": "英雄传奇小说",
+    "tags": [
+      "反抗",
+      "江湖",
+      "兄弟",
+      "官逼民反",
+      "群像"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "guan-hanqing",
+    "name": "关汉卿",
+    "nameEn": "Guan Hanqing",
+    "alias": "",
+    "nationality": "中国",
+    "era": "元代",
+    "birthYear": 1220,
+    "deathYear": 1300,
+    "literaryMovement": "元杂剧",
+    "tags": [
+      "戏剧",
+      "冤屈",
+      "女性",
+      "反抗",
+      "元曲"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "mao-dun",
+    "name": "茅盾",
+    "nameEn": "Mao Dun",
+    "alias": "沈雁冰",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1896,
+    "deathYear": 1981,
+    "literaryMovement": "现实主义 / 社会剖析小说",
+    "tags": [
+      "社会剖析",
+      "都市",
+      "经济",
+      "全景叙事",
+      "左翼"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "zhang-ailing",
+    "name": "张爱玲",
+    "nameEn": "Eileen Chang",
+    "alias": "张瑛",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1920,
+    "deathYear": 1995,
+    "literaryMovement": "都市文学 / 通俗与高雅融合",
+    "tags": [
+      "都市",
+      "女性",
+      "华丽",
+      "苍凉",
+      "上海"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "qian-zhongshu",
+    "name": "钱锺书",
+    "nameEn": "Qian Zhongshu",
+    "alias": "",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1910,
+    "deathYear": 1998,
+    "literaryMovement": "学者型小说 / 讽刺文学",
+    "tags": [
+      "讽刺",
+      "知识分子",
+      "围城",
+      "学者",
+      "机智"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "lin-yutang",
+    "name": "林语堂",
+    "nameEn": "Lin Yutang",
+    "alias": "",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1895,
+    "deathYear": 1976,
+    "literaryMovement": "幽默文学 / 中英双语写作",
+    "tags": [
+      "幽默",
+      "双语",
+      "闲适",
+      "中西文化",
+      "散文"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "cao-yu",
+    "name": "曹禺",
+    "nameEn": "Cao Yu",
+    "alias": "万家宝",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1910,
+    "deathYear": 1996,
+    "literaryMovement": "现代话剧",
+    "tags": [
+      "话剧",
+      "悲剧",
+      "家庭",
+      "命运",
+      "冲突"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "yu-dafu",
+    "name": "郁达夫",
+    "nameEn": "Yu Dafu",
+    "alias": "",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1896,
+    "deathYear": 1945,
+    "literaryMovement": "自叙传小说 / 浪漫主义",
+    "tags": [
+      "自叙传",
+      "苦闷",
+      "浪漫",
+      "日本",
+      "青年"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "wang-zengqi",
+    "name": "汪曾祺",
+    "nameEn": "Wang Zengqi",
+    "alias": "",
+    "nationality": "中国",
+    "era": "近现代",
+    "birthYear": 1920,
+    "deathYear": 1997,
+    "literaryMovement": "散文化小说 / 诗意写实",
+    "tags": [
+      "散文化",
+      "日常",
+      "诗意",
+      "人情",
+      "淡泊"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "mo-yan",
+    "name": "莫言",
+    "nameEn": "Mo Yan",
+    "alias": "管谟业",
+    "nationality": "中国",
+    "era": "当代",
+    "birthYear": 1955,
+    "deathYear": null,
+    "literaryMovement": "魔幻现实主义 / 乡土文学",
+    "tags": [
+      "魔幻现实",
+      "乡土",
+      "诺贝尔奖",
+      "高密",
+      "感官"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "yu-hua",
+    "name": "余华",
+    "nameEn": "Yu Hua",
+    "alias": "",
+    "nationality": "中国",
+    "era": "当代",
+    "birthYear": 1960,
+    "deathYear": null,
+    "literaryMovement": "先锋文学 / 现实主义",
+    "tags": [
+      "先锋",
+      "苦难",
+      "活着",
+      "温情",
+      "简洁"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "lu-yao",
+    "name": "路遥",
+    "nameEn": "Lu Yao",
+    "alias": "王卫国",
+    "nationality": "中国",
+    "era": "当代",
+    "birthYear": 1949,
+    "deathYear": 1992,
+    "literaryMovement": "现实主义",
+    "tags": [
+      "现实主义",
+      "农村",
+      "奋斗",
+      "平凡",
+      "厚重"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "wang-xiaobo",
+    "name": "王小波",
+    "nameEn": "Wang Xiaobo",
+    "alias": "",
+    "nationality": "中国",
+    "era": "当代",
+    "birthYear": 1952,
+    "deathYear": 1997,
+    "literaryMovement": "思想型文学 / 黑色幽默",
+    "tags": [
+      "自由",
+      "幽默",
+      "理性",
+      "荒诞",
+      "独立"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "shi-tiesheng",
+    "name": "史铁生",
+    "nameEn": "Shi Tiesheng",
+    "alias": "",
+    "nationality": "中国",
+    "era": "当代",
+    "birthYear": 1951,
+    "deathYear": 2010,
+    "literaryMovement": "生命哲学文学",
+    "tags": [
+      "生命",
+      "地坛",
+      "命运",
+      "信仰",
+      "残疾"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "jia-pingwa",
+    "name": "贾平凹",
+    "nameEn": "Jia Pingwa",
+    "alias": "",
+    "nationality": "中国",
+    "era": "当代",
+    "birthYear": 1952,
+    "deathYear": null,
+    "literaryMovement": "乡土文学 / 世俗叙事",
+    "tags": [
+      "乡土",
+      "商州",
+      "世俗",
+      "厚重",
+      "传统"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "su-tong",
+    "name": "苏童",
+    "nameEn": "Su Tong",
+    "alias": "",
+    "nationality": "中国",
+    "era": "当代",
+    "birthYear": 1963,
+    "deathYear": null,
+    "literaryMovement": "先锋文学 / 历史叙事",
+    "tags": [
+      "先锋",
+      "女性",
+      "江南",
+      "旧宅",
+      "历史"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "a-cheng",
+    "name": "阿城",
+    "nameEn": "A Cheng",
+    "alias": "钟阿城",
+    "nationality": "中国",
+    "era": "当代",
+    "birthYear": 1949,
+    "deathYear": null,
+    "literaryMovement": "文化寻根文学",
+    "tags": [
+      "寻根",
+      "棋王",
+      "道家",
+      "极简",
+      "坚守"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "homer",
+    "name": "荷马",
+    "nameEn": "Homer",
+    "alias": "",
+    "nationality": "古希腊",
+    "era": "公元前8世纪",
+    "birthYear": -800,
+    "deathYear": -700,
+    "literaryMovement": "史诗传统",
+    "tags": [
+      "史诗",
+      "英雄",
+      "命运",
+      "神话",
+      "源头"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "dante",
+    "name": "但丁",
+    "nameEn": "Dante Alighieri",
+    "alias": "",
+    "nationality": "意大利",
+    "era": "中世纪",
+    "birthYear": 1265,
+    "deathYear": 1321,
+    "literaryMovement": "中世纪文学 / 早期文艺复兴",
+    "tags": [
+      "神曲",
+      "基督教",
+      "地狱",
+      "炼狱",
+      "天堂"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "boccaccio",
+    "name": "薄伽丘",
+    "nameEn": "Giovanni Boccaccio",
+    "alias": "",
+    "nationality": "意大利",
+    "era": "文艺复兴",
+    "birthYear": 1313,
+    "deathYear": 1375,
+    "literaryMovement": "文艺复兴 / 早期人文主义",
+    "tags": [
+      "十日谈",
+      "人文主义",
+      "爱情",
+      "故事",
+      "世俗"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "cervantes",
+    "name": "塞万提斯",
+    "nameEn": "Miguel de Cervantes",
+    "alias": "",
+    "nationality": "西班牙",
+    "era": "文艺复兴/黄金时代",
+    "birthYear": 1547,
+    "deathYear": 1616,
+    "literaryMovement": "文艺复兴 / 现代小说先驱",
+    "tags": [
+      "堂吉诃德",
+      "理想主义",
+      "讽刺",
+      "骑士",
+      "现代小说"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "pushkin",
+    "name": "普希金",
+    "nameEn": "Alexander Pushkin",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "19世纪",
+    "birthYear": 1799,
+    "deathYear": 1837,
+    "literaryMovement": "浪漫主义 / 俄国文学奠基",
+    "tags": [
+      "俄国文学之父",
+      "诗歌",
+      "浪漫主义",
+      "自由",
+      "叙事诗"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "dostoevsky",
+    "name": "陀思妥耶夫斯基",
+    "nameEn": "Fyodor Dostoevsky",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "19世纪",
+    "birthYear": 1821,
+    "deathYear": 1881,
+    "literaryMovement": "心理现实主义 / 存在主义先驱",
+    "tags": [
+      "心理深度",
+      "罪恶",
+      "信仰",
+      "存在主义",
+      "苦难"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "chekhov",
+    "name": "契诃夫",
+    "nameEn": "Anton Chekhov",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "19世纪末",
+    "birthYear": 1860,
+    "deathYear": 1904,
+    "literaryMovement": "现实主义 / 短篇小说",
+    "tags": [
+      "短篇",
+      "极简",
+      "日常",
+      "悲喜剧",
+      "戏剧"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "gogol",
+    "name": "果戈里",
+    "nameEn": "Nikolai Gogol",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "19世纪",
+    "birthYear": 1809,
+    "deathYear": 1852,
+    "literaryMovement": "现实主义 / 讽刺文学",
+    "tags": [
+      "讽刺",
+      "荒诞",
+      "死魂灵",
+      "怪诞",
+      "俄国社会"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "turgenev",
+    "name": "屠格涅夫",
+    "nameEn": "Ivan Turgenev",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "19世纪",
+    "birthYear": 1818,
+    "deathYear": 1883,
+    "literaryMovement": "现实主义 / 诗意小说",
+    "tags": [
+      "诗意",
+      "代际冲突",
+      "自然",
+      "优雅",
+      "父与子"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "solzhenitsyn",
+    "name": "索尔仁尼琴",
+    "nameEn": "Aleksandr Solzhenitsyn",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "20世纪",
+    "birthYear": 1918,
+    "deathYear": 2008,
+    "literaryMovement": "纪实文学 / 道义文学",
+    "tags": [
+      "诺贝尔奖",
+      "古拉格",
+      "极权",
+      "道德",
+      "纪实"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "lermontov",
+    "name": "莱蒙托夫",
+    "nameEn": "Mikhail Lermontov",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "19世纪",
+    "birthYear": 1814,
+    "deathYear": 1841,
+    "literaryMovement": "浪漫主义",
+    "tags": [
+      "浪漫主义",
+      "叛逆",
+      "当代英雄",
+      "孤独",
+      "诗歌"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "austen",
+    "name": "奥斯汀",
+    "nameEn": "Jane Austen",
+    "alias": "",
+    "nationality": "英国",
+    "era": "18-19世纪",
+    "birthYear": 1775,
+    "deathYear": 1817,
+    "literaryMovement": "现实主义 / 社会风俗小说",
+    "tags": [
+      "讽刺",
+      "婚恋",
+      "乡绅",
+      "风俗",
+      "机智"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "dickens",
+    "name": "狄更斯",
+    "nameEn": "Charles Dickens",
+    "alias": "",
+    "nationality": "英国",
+    "era": "19世纪",
+    "birthYear": 1812,
+    "deathYear": 1870,
+    "literaryMovement": "现实主义 / 社会批判",
+    "tags": [
+      "社会批判",
+      "底层",
+      "孤儿",
+      "伦敦",
+      "群像"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "byron",
+    "name": "拜伦",
+    "nameEn": "Lord Byron",
+    "alias": "",
+    "nationality": "英国",
+    "era": "19世纪",
+    "birthYear": 1788,
+    "deathYear": 1824,
+    "literaryMovement": "浪漫主义",
+    "tags": [
+      "浪漫主义",
+      "叛逆",
+      "自由",
+      "冒险",
+      "唐璜"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "shelley",
+    "name": "雪莱",
+    "nameEn": "Percy Bysshe Shelley",
+    "alias": "",
+    "nationality": "英国",
+    "era": "19世纪",
+    "birthYear": 1792,
+    "deathYear": 1822,
+    "literaryMovement": "浪漫主义",
+    "tags": [
+      "理想主义",
+      "自由",
+      "西风颂",
+      "变革",
+      "诗意"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "woolf",
+    "name": "伍尔夫",
+    "nameEn": "Virginia Woolf",
+    "alias": "",
+    "nationality": "英国",
+    "era": "20世纪",
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "literaryMovement": "现代主义 / 意识流",
+    "tags": [
+      "意识流",
+      "女性",
+      "时间",
+      "诗意",
+      "内心"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "orwell",
+    "name": "奥威尔",
+    "nameEn": "George Orwell",
+    "alias": "埃里克·布莱尔",
+    "nationality": "英国",
+    "era": "20世纪",
+    "birthYear": 1903,
+    "deathYear": 1950,
+    "literaryMovement": "反乌托邦 / 政治寓言",
+    "tags": [
+      "反乌托邦",
+      "极权",
+      "1984",
+      "政治寓言",
+      "真相"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "lawrence",
+    "name": "劳伦斯",
+    "nameEn": "D.H. Lawrence",
+    "alias": "",
+    "nationality": "英国",
+    "era": "20世纪",
+    "birthYear": 1885,
+    "deathYear": 1930,
+    "literaryMovement": "现代主义 / 心理小说",
+    "tags": [
+      "性意识",
+      "本能",
+      "工业文明",
+      "心理",
+      "争议"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "keats",
+    "name": "济慈",
+    "nameEn": "John Keats",
+    "alias": "",
+    "nationality": "英国",
+    "era": "19世纪",
+    "birthYear": 1795,
+    "deathYear": 1821,
+    "literaryMovement": "浪漫主义",
+    "tags": [
+      "抒情",
+      "美",
+      "死亡",
+      "感官",
+      "希腊"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "joyce",
+    "name": "乔伊斯",
+    "nameEn": "James Joyce",
+    "alias": "",
+    "nationality": "爱尔兰",
+    "era": "20世纪",
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "literaryMovement": "现代主义 / 意识流",
+    "tags": [
+      "意识流",
+      "尤利西斯",
+      "现代主义",
+      "语言实验",
+      "史诗"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "beckett",
+    "name": "贝克特",
+    "nameEn": "Samuel Beckett",
+    "alias": "",
+    "nationality": "爱尔兰",
+    "era": "20世纪",
+    "birthYear": 1906,
+    "deathYear": 1989,
+    "literaryMovement": "荒诞派戏剧 / 后现代主义",
+    "tags": [
+      "荒诞",
+      "等待戈多",
+      "极简",
+      "虚无",
+      "诺贝尔奖"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "hugo",
+    "name": "雨果",
+    "nameEn": "Victor Hugo",
+    "alias": "",
+    "nationality": "法国",
+    "era": "19世纪",
+    "birthYear": 1802,
+    "deathYear": 1885,
+    "literaryMovement": "浪漫主义 / 社会批判",
+    "tags": [
+      "浪漫主义",
+      "人道主义",
+      "悲惨世界",
+      "底层",
+      "正义"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "balzac",
+    "name": "巴尔扎克",
+    "nameEn": "Honoré de Balzac",
+    "alias": "",
+    "nationality": "法国",
+    "era": "19世纪",
+    "birthYear": 1799,
+    "deathYear": 1850,
+    "literaryMovement": "现实主义",
+    "tags": [
+      "现实主义",
+      "人间喜剧",
+      "全景",
+      "金钱",
+      "巴黎"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "flaubert",
+    "name": "福楼拜",
+    "nameEn": "Gustave Flaubert",
+    "alias": "",
+    "nationality": "法国",
+    "era": "19世纪",
+    "birthYear": 1821,
+    "deathYear": 1880,
+    "literaryMovement": "现实主义 / 精致文体",
+    "tags": [
+      "文体",
+      "包法利夫人",
+      "精确",
+      "克制",
+      "bourgeois"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "dumas",
+    "name": "大仲马",
+    "nameEn": "Alexandre Dumas",
+    "alias": "",
+    "nationality": "法国",
+    "era": "19世纪",
+    "birthYear": 1802,
+    "deathYear": 1870,
+    "literaryMovement": "通俗小说 / 历史冒险",
+    "tags": [
+      "冒险",
+      "复仇",
+      "历史",
+      "通俗",
+      "传奇"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "camus",
+    "name": "加缪",
+    "nameEn": "Albert Camus",
+    "alias": "",
+    "nationality": "法国",
+    "era": "20世纪",
+    "birthYear": 1913,
+    "deathYear": 1960,
+    "literaryMovement": "存在主义 / 荒诞哲学",
+    "tags": [
+      "存在主义",
+      "荒诞",
+      "局外人",
+      "诺贝尔奖",
+      "哲学"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "duras",
+    "name": "杜拉斯",
+    "nameEn": "Marguerite Duras",
+    "alias": "",
+    "nationality": "法国",
+    "era": "20世纪",
+    "birthYear": 1914,
+    "deathYear": 1996,
+    "literaryMovement": "新小说运动 / 散文诗化小说",
+    "tags": [
+      "新小说",
+      "情人",
+      "殖民地",
+      "欲望",
+      "记忆"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "zola",
+    "name": "左拉",
+    "nameEn": "Émile Zola",
+    "alias": "",
+    "nationality": "法国",
+    "era": "19世纪",
+    "birthYear": 1840,
+    "deathYear": 1902,
+    "literaryMovement": "自然主义",
+    "tags": [
+      "自然主义",
+      "底层",
+      "阶级",
+      "科学",
+      "萌芽"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "baudelaire",
+    "name": "波德莱尔",
+    "nameEn": "Charles Baudelaire",
+    "alias": "",
+    "nationality": "法国",
+    "era": "19世纪",
+    "birthYear": 1821,
+    "deathYear": 1867,
+    "literaryMovement": "象征主义 / 现代诗歌先驱",
+    "tags": [
+      "恶之花",
+      "象征主义",
+      "美与罪恶",
+      "现代诗歌",
+      "都市"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "stendhal",
+    "name": "司汤达",
+    "nameEn": "Stendhal",
+    "alias": "亨利·贝尔",
+    "nationality": "法国",
+    "era": "19世纪",
+    "birthYear": 1783,
+    "deathYear": 1842,
+    "literaryMovement": "现实主义 / 心理小说",
+    "tags": [
+      "野心",
+      "红与黑",
+      "心理",
+      "阶级",
+      "爱情"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "maupassant",
+    "name": "莫泊桑",
+    "nameEn": "Guy de Maupassant",
+    "alias": "",
+    "nationality": "法国",
+    "era": "19世纪",
+    "birthYear": 1850,
+    "deathYear": 1893,
+    "literaryMovement": "现实主义 / 短篇小说",
+    "tags": [
+      "短篇",
+      "项链",
+      "虚荣",
+      "反讽",
+      "极简"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "goethe",
+    "name": "歌德",
+    "nameEn": "Johann Wolfgang von Goethe",
+    "alias": "",
+    "nationality": "德国",
+    "era": "18-19世纪",
+    "birthYear": 1749,
+    "deathYear": 1832,
+    "literaryMovement": "浪漫主义 / 古典人文主义",
+    "tags": [
+      "浮士德",
+      "德国文学",
+      "人文主义",
+      "追求",
+      "永恒"
+    ],
+    "influenceScore": 10,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "thomas-mann",
+    "name": "托马斯·曼",
+    "nameEn": "Thomas Mann",
+    "alias": "",
+    "nationality": "德国",
+    "era": "20世纪",
+    "birthYear": 1875,
+    "deathYear": 1955,
+    "literaryMovement": "现实主义 / 精神分析小说",
+    "tags": [
+      "魔山",
+      "精神危机",
+      "诺贝尔奖",
+      "疾病隐喻",
+      "欧洲"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "zweig",
+    "name": "茨威格",
+    "nameEn": "Stefan Zweig",
+    "alias": "",
+    "nationality": "奥地利",
+    "era": "20世纪",
+    "birthYear": 1881,
+    "deathYear": 1942,
+    "literaryMovement": "心理小说 / 历史传记",
+    "tags": [
+      "心理",
+      "激情",
+      "命运",
+      "历史",
+      "传记"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "hesse",
+    "name": "黑塞",
+    "nameEn": "Hermann Hesse",
+    "alias": "",
+    "nationality": "德国",
+    "era": "20世纪",
+    "birthYear": 1877,
+    "deathYear": 1962,
+    "literaryMovement": "浪漫主义 / 东方哲学融合",
+    "tags": [
+      "荒原狼",
+      "悉达多",
+      "东方哲学",
+      "精神探索",
+      "诺贝尔奖"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "whitman",
+    "name": "惠特曼",
+    "nameEn": "Walt Whitman",
+    "alias": "",
+    "nationality": "美国",
+    "era": "19世纪",
+    "birthYear": 1819,
+    "deathYear": 1892,
+    "literaryMovement": "自由体诗歌",
+    "tags": [
+      "自由体",
+      "民主",
+      "自然",
+      "草叶集",
+      "美国精神"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "mark-twain",
+    "name": "马克·吐温",
+    "nameEn": "Mark Twain",
+    "alias": "塞缪尔·克莱门斯",
+    "nationality": "美国",
+    "era": "19世纪",
+    "birthYear": 1835,
+    "deathYear": 1910,
+    "literaryMovement": "现实主义 / 美国幽默文学",
+    "tags": [
+      "幽默",
+      "讽刺",
+      "边疆",
+      "种族",
+      "美国精神"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "fitzgerald",
+    "name": "菲茨杰拉德",
+    "nameEn": "F. Scott Fitzgerald",
+    "alias": "",
+    "nationality": "美国",
+    "era": "20世纪",
+    "birthYear": 1896,
+    "deathYear": 1940,
+    "literaryMovement": "迷惘的一代",
+    "tags": [
+      "美国梦",
+      "盖茨比",
+      "爵士时代",
+      "幻灭",
+      "欲望"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "faulkner",
+    "name": "福克纳",
+    "nameEn": "William Faulkner",
+    "alias": "",
+    "nationality": "美国",
+    "era": "20世纪",
+    "birthYear": 1897,
+    "deathYear": 1962,
+    "literaryMovement": "现代主义 / 南方文学",
+    "tags": [
+      "南方",
+      "诺贝尔奖",
+      "多视角",
+      "时间实验",
+      "罪恶"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "poe",
+    "name": "坡",
+    "nameEn": "Edgar Allan Poe",
+    "alias": "埃德加·爱伦·坡",
+    "nationality": "美国",
+    "era": "19世纪",
+    "birthYear": 1809,
+    "deathYear": 1849,
+    "literaryMovement": "哥特文学 / 推理小说先驱",
+    "tags": [
+      "哥特",
+      "推理",
+      "恐怖",
+      "心理",
+      "死亡美学"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "steinbeck",
+    "name": "斯坦贝克",
+    "nameEn": "John Steinbeck",
+    "alias": "",
+    "nationality": "美国",
+    "era": "20世纪",
+    "birthYear": 1902,
+    "deathYear": 1968,
+    "literaryMovement": "现实主义 / 社会批判",
+    "tags": [
+      "诺贝尔奖",
+      "底层",
+      "农民",
+      "愤怒的葡萄",
+      "社会批判"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "melville",
+    "name": "梅尔维尔",
+    "nameEn": "Herman Melville",
+    "alias": "",
+    "nationality": "美国",
+    "era": "19世纪",
+    "birthYear": 1819,
+    "deathYear": 1891,
+    "literaryMovement": "象征主义 / 海洋文学",
+    "tags": [
+      "白鲸",
+      "象征",
+      "海洋",
+      "命运",
+      "搏斗"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "calvino",
+    "name": "卡尔维诺",
+    "nameEn": "Italo Calvino",
+    "alias": "伊塔洛·卡尔维诺",
+    "nationality": "意大利",
+    "era": "20世纪",
+    "birthYear": 1923,
+    "deathYear": 1985,
+    "literaryMovement": "幻想文学 / 元小说",
+    "tags": [
+      "想象力",
+      "树上的男爵",
+      "看不见的城市",
+      "轻盈",
+      "寓言"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "pirandello",
+    "name": "皮兰德娄",
+    "nameEn": "Luigi Pirandello",
+    "alias": "",
+    "nationality": "意大利",
+    "era": "20世纪",
+    "birthYear": 1867,
+    "deathYear": 1936,
+    "literaryMovement": "现代戏剧 / 存在主义戏剧",
+    "tags": [
+      "戏剧",
+      "诺贝尔奖",
+      "角色",
+      "虚构",
+      "身份"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "natsume-soseki",
+    "name": "夏目漱石",
+    "nameEn": "Natsume Sōseki",
+    "alias": "",
+    "nationality": "日本",
+    "era": "近代",
+    "birthYear": 1867,
+    "deathYear": 1916,
+    "literaryMovement": "日本近代文学",
+    "tags": [
+      "我是猫",
+      "知识分子",
+      "讽刺",
+      "近代日本",
+      "苦闷"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "kawabata",
+    "name": "川端康成",
+    "nameEn": "Yasunari Kawabata",
+    "alias": "",
+    "nationality": "日本",
+    "era": "20世纪",
+    "birthYear": 1899,
+    "deathYear": 1972,
+    "literaryMovement": "新感觉派 / 日本美学",
+    "tags": [
+      "雪国",
+      "诺贝尔奖",
+      "日本美学",
+      "虚无",
+      "哀愁"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "mishima",
+    "name": "三岛由纪夫",
+    "nameEn": "Yukio Mishima",
+    "alias": "",
+    "nationality": "日本",
+    "era": "20世纪",
+    "birthYear": 1925,
+    "deathYear": 1970,
+    "literaryMovement": "日本美学 / 虚无与美",
+    "tags": [
+      "金阁寺",
+      "美与毁灭",
+      "切腹",
+      "虚无",
+      "极端"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "oe",
+    "name": "大江健三郎",
+    "nameEn": "Kenzaburō Ōe",
+    "alias": "",
+    "nationality": "日本",
+    "era": "当代",
+    "birthYear": 1935,
+    "deathYear": 2022,
+    "literaryMovement": "存在主义 / 社会批判",
+    "tags": [
+      "诺贝尔奖",
+      "个人体验",
+      "存在主义",
+      "残疾",
+      "救赎"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "borges",
+    "name": "博尔赫斯",
+    "nameEn": "Jorge Luis Borges",
+    "alias": "",
+    "nationality": "阿根廷",
+    "era": "20世纪",
+    "birthYear": 1899,
+    "deathYear": 1986,
+    "literaryMovement": "幻想文学 / 元小说",
+    "tags": [
+      "幻想",
+      "迷宫",
+      "时间",
+      "无限",
+      "小径分岔"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "andersen",
+    "name": "安徒生",
+    "nameEn": "Hans Christian Andersen",
+    "alias": "",
+    "nationality": "丹麦",
+    "era": "19世纪",
+    "birthYear": 1805,
+    "deathYear": 1875,
+    "literaryMovement": "童话文学",
+    "tags": [
+      "童话",
+      "希望",
+      "想象",
+      "苦难",
+      "诗意"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "ibsen",
+    "name": "易卜生",
+    "nameEn": "Henrik Ibsen",
+    "alias": "",
+    "nationality": "挪威",
+    "era": "19世纪",
+    "birthYear": 1828,
+    "deathYear": 1906,
+    "literaryMovement": "现代戏剧 / 社会批判",
+    "tags": [
+      "玩偶之家",
+      "女性解放",
+      "社会问题",
+      "戏剧",
+      "挪威"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "tagore",
+    "name": "泰戈尔",
+    "nameEn": "Rabindranath Tagore",
+    "alias": "",
+    "nationality": "印度",
+    "era": "19-20世纪",
+    "birthYear": 1861,
+    "deathYear": 1941,
+    "literaryMovement": "印度文艺复兴 / 诗意哲学",
+    "tags": [
+      "诺贝尔奖",
+      "吉檀迦利",
+      "东方哲学",
+      "诗歌",
+      "灵性"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "pamuk",
+    "name": "帕慕克",
+    "nameEn": "Orhan Pamuk",
+    "alias": "",
+    "nationality": "土耳其",
+    "era": "当代",
+    "birthYear": 1952,
+    "deathYear": null,
+    "literaryMovement": "后现代主义 / 东西方交汇",
+    "tags": [
+      "诺贝尔奖",
+      "伊斯坦布尔",
+      "东西方",
+      "身份",
+      "红色"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "mahfouz",
+    "name": "马哈福兹",
+    "nameEn": "Naguib Mahfouz",
+    "alias": "",
+    "nationality": "埃及",
+    "era": "20世纪",
+    "birthYear": 1911,
+    "deathYear": 2006,
+    "literaryMovement": "现实主义 / 阿拉伯文学",
+    "tags": [
+      "诺贝尔奖",
+      "开罗",
+      "阿拉伯",
+      "变迁",
+      "三部曲"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "achebe",
+    "name": "阿契贝",
+    "nameEn": "Chinua Achebe",
+    "alias": "",
+    "nationality": "尼日利亚",
+    "era": "20世纪",
+    "birthYear": 1930,
+    "deathYear": 2013,
+    "literaryMovement": "非洲文学 / 后殖民文学",
+    "tags": [
+      "瓦解",
+      "殖民主义",
+      "非洲传统",
+      "后殖民",
+      "尼日利亚"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "lorca",
+    "name": "洛尔卡",
+    "nameEn": "Federico García Lorca",
+    "alias": "",
+    "nationality": "西班牙",
+    "era": "20世纪",
+    "birthYear": 1898,
+    "deathYear": 1936,
+    "literaryMovement": "西班牙诗歌 / 戏剧",
+    "tags": [
+      "血婚",
+      "安达卢西亚",
+      "激情",
+      "死亡",
+      "诗歌"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "kundera",
+    "name": "昆德拉",
+    "nameEn": "Milan Kundera",
+    "alias": "米兰·昆德拉",
+    "nationality": "捷克",
+    "era": "20世纪",
+    "birthYear": 1929,
+    "deathYear": 2023,
+    "literaryMovement": "存在主义 / 历史与个人",
+    "tags": [
+      "存在主义",
+      "轻与重",
+      "历史",
+      "个人",
+      "布拉格"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "eco",
+    "name": "埃科",
+    "nameEn": "Umberto Eco",
+    "alias": "翁贝托·埃科",
+    "nationality": "意大利",
+    "era": "当代",
+    "birthYear": 1932,
+    "deathYear": 2016,
+    "literaryMovement": "后现代主义 / 学者型小说",
+    "tags": [
+      "玫瑰之名",
+      "符号学",
+      "迷宫",
+      "中世纪",
+      "后现代"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "soyinka",
+    "name": "索因卡",
+    "nameEn": "Wole Soyinka",
+    "alias": "",
+    "nationality": "尼日利亚",
+    "era": "当代",
+    "birthYear": 1934,
+    "deathYear": null,
+    "literaryMovement": "非洲戏剧 / 后殖民文学",
+    "tags": [
+      "诺贝尔奖",
+      "非洲戏剧",
+      "解放",
+      "极权",
+      "尼日利亚"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "milosz",
+    "name": "米沃什",
+    "nameEn": "Czesław Miłosz",
+    "alias": "",
+    "nationality": "波兰",
+    "era": "20世纪",
+    "birthYear": 1911,
+    "deathYear": 2004,
+    "literaryMovement": "东欧诗歌 / 历史见证",
+    "tags": [
+      "诺贝尔奖",
+      "流亡",
+      "见证",
+      "波兰",
+      "记忆"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "ostrovsky",
+    "name": "奥斯特洛夫斯基",
+    "nameEn": "Nikolai Ostrovsky",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "20世纪",
+    "birthYear": 1904,
+    "deathYear": 1936,
+    "literaryMovement": "苏联文学 / 社会主义现实主义",
+    "tags": [
+      "钢铁",
+      "理想",
+      "意志",
+      "革命",
+      "苏联"
+    ],
+    "influenceScore": 6,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "proust",
+    "name": "普鲁斯特",
+    "nameEn": "Marcel Proust",
+    "alias": "",
+    "nationality": "法国",
+    "era": "20世纪",
+    "birthYear": 1871,
+    "deathYear": 1922,
+    "literaryMovement": "意识流 / 时间小说",
+    "tags": [
+      "追忆",
+      "意识流",
+      "时间",
+      "记忆",
+      "法国"
+    ],
+    "influenceScore": 9,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "nabokov",
+    "name": "纳博科夫",
+    "nameEn": "Vladimir Nabokov",
+    "alias": "",
+    "nationality": "俄国/美国",
+    "era": "20世纪",
+    "birthYear": 1899,
+    "deathYear": 1977,
+    "literaryMovement": "现代主义 / 元小说",
+    "tags": [
+      "洛丽塔",
+      "跨语言",
+      "道德边界",
+      "语言游戏",
+      "蝴蝶"
+    ],
+    "influenceScore": 8,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "pasternak",
+    "name": "帕斯捷尔纳克",
+    "nameEn": "Boris Pasternak",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "20世纪",
+    "birthYear": 1890,
+    "deathYear": 1960,
+    "literaryMovement": "苏联文学 / 诗歌与小说",
+    "tags": [
+      "日瓦戈",
+      "诺贝尔奖",
+      "革命",
+      "爱情",
+      "拒领"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "o-connor",
+    "name": "奥康纳",
+    "nameEn": "Flannery O'Connor",
+    "alias": "",
+    "nationality": "美国",
+    "era": "20世纪",
+    "birthYear": 1925,
+    "deathYear": 1964,
+    "literaryMovement": "南方文学 / 宗教寓言",
+    "tags": [
+      "南方",
+      "宗教",
+      "怪诞",
+      "好人难寻",
+      "信仰"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "szymborska",
+    "name": "辛波丝卡",
+    "nameEn": "Wisława Szymborska",
+    "alias": "",
+    "nationality": "波兰",
+    "era": "当代",
+    "birthYear": 1923,
+    "deathYear": 2012,
+    "literaryMovement": "波兰诗歌 / 智性幽默",
+    "tags": [
+      "诺贝尔奖",
+      "诗歌",
+      "智性",
+      "幽默",
+      "惊奇"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "gide",
+    "name": "纪德",
+    "nameEn": "André Gide",
+    "alias": "",
+    "nationality": "法国",
+    "era": "20世纪",
+    "birthYear": 1869,
+    "deathYear": 1951,
+    "literaryMovement": "法国现代文学 / 道德反思",
+    "tags": [
+      "诺贝尔奖",
+      "窄门",
+      "道德",
+      "自由",
+      "欲望"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "bunin",
+    "name": "蒲宁",
+    "nameEn": "Ivan Bunin",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "20世纪",
+    "birthYear": 1870,
+    "deathYear": 1953,
+    "literaryMovement": "俄国古典传统 / 抒情小说",
+    "tags": [
+      "诺贝尔奖",
+      "抒情",
+      "乡村",
+      "消逝",
+      "爱情"
+    ],
+    "influenceScore": 6,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "sholokhov",
+    "name": "肖洛霍夫",
+    "nameEn": "Mikhail Sholokhov",
+    "alias": "",
+    "nationality": "俄国",
+    "era": "20世纪",
+    "birthYear": 1905,
+    "deathYear": 1984,
+    "literaryMovement": "社会主义现实主义 / 史诗小说",
+    "tags": [
+      "诺贝尔奖",
+      "顿河",
+      "哥萨克",
+      "史诗",
+      "革命"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  },
+  {
+    "id": "maugham",
+    "name": "毛姆",
+    "nameEn": "W. Somerset Maugham",
+    "alias": "",
+    "nationality": "英国",
+    "era": "20世纪",
+    "birthYear": 1874,
+    "deathYear": 1965,
+    "literaryMovement": "现实主义 / 通俗文学",
+    "tags": [
+      "月亮与六便士",
+      "讲故事",
+      "艺术",
+      "世俗",
+      "异乡"
+    ],
+    "influenceScore": 7,
+    "avatar": "/images/portraits/placeholder.svg"
+  }
+]

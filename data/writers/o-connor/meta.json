@@ -1,0 +1,33 @@
+{
+  "id": "o-connor",
+  "name": "奥康纳",
+  "nameEn": "Flannery O'Connor",
+  "alias": "",
+  "nationality": "美国",
+  "era": "20世纪",
+  "birthYear": 1925,
+  "deathYear": 1964,
+  "literaryMovement": "南方文学 / 宗教寓言",
+  "influencedBy": [
+    "chekhov",
+    "maupassant",
+    "faulkner"
+  ],
+  "influenced": [
+    "mo-yan",
+    "su-tong"
+  ],
+  "awards": [
+    "美国南方文学代表"
+  ],
+  "summary": "美国南方文学的奇才，以怪诞的宗教寓言书写信仰与罪恶在南方荒原上的碰撞",
+  "tags": [
+    "南方",
+    "宗教",
+    "怪诞",
+    "好人难寻",
+    "信仰"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "yu-dafu",
+  "name": "郁达夫",
+  "nameEn": "Yu Dafu",
+  "alias": "",
+  "nationality": "中国",
+  "era": "近现代",
+  "birthYear": 1896,
+  "deathYear": 1945,
+  "literaryMovement": "自叙传小说 / 浪漫主义",
+  "influencedBy": [
+    "lu-xun",
+    "dostoevsky"
+  ],
+  "influenced": [
+    "shen-congwen",
+    "ba-jin"
+  ],
+  "awards": [
+    "自叙传小说开创者"
+  ],
+  "summary": "中国自叙传小说的开创者，以赤裸的自我解剖书写知识青年的苦闷与性压抑",
+  "tags": [
+    "自叙传",
+    "苦闷",
+    "浪漫",
+    "日本",
+    "青年"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

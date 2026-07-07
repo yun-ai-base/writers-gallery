@@ -1,0 +1,28 @@
+{
+  "id": "soyinka",
+  "name": "索因卡",
+  "nameEn": "Wole Soyinka",
+  "alias": "",
+  "nationality": "尼日利亚",
+  "era": "当代",
+  "birthYear": 1934,
+  "deathYear": null,
+  "literaryMovement": "非洲戏剧 / 后殖民文学",
+  "influencedBy": [],
+  "influenced": [
+    "achebe"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1986)"
+  ],
+  "summary": "非洲首位诺贝尔文学奖得主，以戏剧和诗歌对抗极权，书写非洲的精神解放",
+  "tags": [
+    "诺贝尔奖",
+    "非洲戏剧",
+    "解放",
+    "极权",
+    "尼日利亚"
+  ],
+  "influenceScore": 7,
+  "avatar": "/images/portraits/placeholder.svg"
+}

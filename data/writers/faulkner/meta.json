@@ -1,0 +1,31 @@
+{
+  "id": "faulkner",
+  "name": "福克纳",
+  "nameEn": "William Faulkner",
+  "alias": "",
+  "nationality": "美国",
+  "era": "20世纪",
+  "birthYear": 1897,
+  "deathYear": 1962,
+  "literaryMovement": "现代主义 / 南方文学",
+  "influencedBy": [
+    "joyce"
+  ],
+  "influenced": [
+    "garcia-marquez",
+    "mo-yan"
+  ],
+  "awards": [
+    "诺贝尔文学奖(1949)"
+  ],
+  "summary": "美国南方文学的巨匠，以多视角叙事和时间实验书写南方的罪恶与衰败",
+  "tags": [
+    "南方",
+    "诺贝尔奖",
+    "多视角",
+    "时间实验",
+    "罪恶"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

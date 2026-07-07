@@ -1,0 +1,33 @@
+{
+  "id": "dante",
+  "name": "但丁",
+  "nameEn": "Dante Alighieri",
+  "alias": "",
+  "nationality": "意大利",
+  "era": "中世纪",
+  "birthYear": 1265,
+  "deathYear": 1321,
+  "literaryMovement": "中世纪文学 / 早期文艺复兴",
+  "influencedBy": [
+    "homer",
+    "virgil"
+  ],
+  "influenced": [
+    "boccaccio",
+    "milton",
+    "eliot"
+  ],
+  "awards": [
+    "意大利文学之父"
+  ],
+  "summary": "中世纪最伟大的诗人，以《神曲》穿越地狱、炼狱和天堂，构筑了基督教世界的文学宇宙",
+  "tags": [
+    "神曲",
+    "基督教",
+    "地狱",
+    "炼狱",
+    "天堂"
+  ],
+  "influenceScore": 10,
+  "avatar": "/images/portraits/placeholder.svg"
+}

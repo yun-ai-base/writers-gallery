@@ -1,0 +1,29 @@
+{
+  "id": "mark-twain",
+  "name": "马克·吐温",
+  "nameEn": "Mark Twain",
+  "alias": "塞缪尔·克莱门斯",
+  "nationality": "美国",
+  "era": "19世纪",
+  "birthYear": 1835,
+  "deathYear": 1910,
+  "literaryMovement": "现实主义 / 美国幽默文学",
+  "influencedBy": [],
+  "influenced": [
+    "hemingway",
+    "faulkner"
+  ],
+  "awards": [
+    "美国文学之父"
+  ],
+  "summary": "美国文学之父，以幽默与讽刺书写美国边疆与种族问题的矛盾",
+  "tags": [
+    "幽默",
+    "讽刺",
+    "边疆",
+    "种族",
+    "美国精神"
+  ],
+  "influenceScore": 9,
+  "avatar": "/images/portraits/placeholder.svg"
+}

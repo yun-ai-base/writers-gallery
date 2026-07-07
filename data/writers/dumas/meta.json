@@ -1,0 +1,33 @@
+{
+  "id": "dumas",
+  "name": "大仲马",
+  "nameEn": "Alexandre Dumas",
+  "alias": "",
+  "nationality": "法国",
+  "era": "19世纪",
+  "birthYear": 1802,
+  "deathYear": 1870,
+  "literaryMovement": "通俗小说 / 历史冒险",
+  "influencedBy": [
+    "shakespeare",
+    "hugo"
+  ],
+  "influenced": [
+    "tolstoy",
+    "hemingway",
+    "mark-twain"
+  ],
+  "awards": [
+    "通俗小说大师"
+  ],
+  "summary": "法国通俗小说的王者，以《基督山伯爵》和《三剑客》书写复仇与冒险的永恒传奇",
+  "tags": [
+    "冒险",
+    "复仇",
+    "历史",
+    "通俗",
+    "传奇"
+  ],
+  "influenceScore": 8,
+  "avatar": "/images/portraits/placeholder.svg"
+}
