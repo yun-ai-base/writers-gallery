@@ -102,7 +102,7 @@
               <div class="tl-card-head">
                 <span class="tl-year">{{ ev.year }}</span>
                 <a
-                  :href="`/writer/${ev.writerId}.html`"
+                  :href="`${baseUrl}writer/${ev.writerId}.html`"
                   class="tl-writer"
                   @click.stop
                 >{{ ev.writerName }}</a>
@@ -141,6 +141,8 @@
 
 <script setup>
 import { ref, computed } from 'vue';
+
+const baseUrl = import.meta.env.BASE_URL;
 
 const props = defineProps({
   events: String,

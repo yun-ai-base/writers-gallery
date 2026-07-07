@@ -65,6 +65,7 @@ for (const { timeline, writer } of allTimelines) {
 
 // 随机作家
 const randomWriterId = writers[Math.floor(Math.random() * writers.length)]?.id || 'lu-xun';
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title="百位作家画廊">
@@ -81,7 +82,7 @@ const randomWriterId = writers[Math.floor(Math.random() * writers.length)]?.id |
 
   <!-- 随机探索 + 今日文学史 -->
   <div class="home-actions-bar">
-    <a href={`/writer/${randomWriterId}.html`} class="random-explore-btn">
+    <a href={`${base}writer/${randomWriterId}.html`} class="random-explore-btn">
       <span class="btn-icon">📖</span>
       <span class="btn-text">邂逅一位作家</span>
     </a>
@@ -95,7 +96,7 @@ const randomWriterId = writers[Math.floor(Math.random() * writers.length)]?.id |
           {todayEvents.map(ev => (
             <div class="today-event">
               <span class="today-year">{ev.year}</span>
-              <a href={`/writer/${ev.writerId}.html`} class="today-writer">{ev.writerName}</a>
+              <a href={`${base}writer/${ev.writerId}.html`} class="today-writer">{ev.writerName}</a>
               <span class="today-dot">·</span>
               <span class="today-desc">{ev.event}</span>
             </div>

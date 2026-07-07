@@ -27,15 +27,16 @@ export function getStaticPaths() {
 
 const { workData, writerMeta } = Astro.props;
 const isCn = writerMeta.nationality === '中国';
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title={`${workData.title} - ${writerMeta.name} - 百位作家画廊`}>
   <div class="work-detail">
-    <a href={`/writer/${writerMeta.id}.html`} class="work-back-link">← 回到 {writerMeta.name}</a>
+    <a href={`${base}writer/${writerMeta.id}.html`} class="work-back-link">← 回到 {writerMeta.name}</a>
 
     <h1>{workData.title}</h1>
     <div class="work-writer-link">
-      <a href={`/writer/${writerMeta.id}.html`}>{writerMeta.name}</a>
+      <a href={`${base}writer/${writerMeta.id}.html`}>{writerMeta.name}</a>
     </div>
     <div class="work-genre-line">{workData.publishYear} · {workData.genre?.join(' / ')} · 评分 {workData.rating}/10</div>
 

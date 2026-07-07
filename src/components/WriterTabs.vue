@@ -37,7 +37,7 @@
         <a
           v-for="work in worksList"
           :key="work.id"
-          :href="`/work/${work.id}.html`"
+          :href="`${baseUrl}work/${work.id}.html`"
           class="work-card"
         >
           <div class="work-title">{{ work.title }}</div>
@@ -111,6 +111,8 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import QuoteCardGenerator from './QuoteCardGenerator.vue';
+
+const baseUrl = import.meta.env.BASE_URL;
 
 const props = defineProps({
   biographyHtml: String,

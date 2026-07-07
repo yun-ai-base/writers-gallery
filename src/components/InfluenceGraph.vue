@@ -155,6 +155,8 @@
 <script setup>
 import { ref, computed } from 'vue';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const props = defineProps({
   writers: String
 });
@@ -395,7 +397,7 @@ const tooltipPos = computed(() => {
 });
 
 function onNodeClick(id) {
-  window.location.href = `/writer/${id}.html`;
+  window.location.href = `${baseUrl}writer/${id}.html`;
 }
 </script>
 

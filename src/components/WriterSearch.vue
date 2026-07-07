@@ -57,7 +57,7 @@
       <a
         v-for="writer in displayedWriters"
         :key="writer.id"
-        :href="`/writer/${writer.id}.html`"
+        :href="`${baseUrl}writer/${writer.id}.html`"
         class="writer-card"
         :class="writer.nationality === '中国' ? 'cn-writer' : 'en-writer'"
       >
@@ -99,6 +99,8 @@
 
 <script setup>
 import { ref, computed } from 'vue';
+
+const baseUrl = import.meta.env.BASE_URL;
 
 const props = defineProps({
   writers: String

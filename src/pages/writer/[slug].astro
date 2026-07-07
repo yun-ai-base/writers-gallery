@@ -79,6 +79,8 @@ const jsonLd = {
   "description": meta.summary,
   "knowsAbout": meta.tags?.join(', ')
 };
+
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title={`${meta.name} - 百位作家画廊`} jsonLd={JSON.stringify(jsonLd)}>
@@ -117,7 +119,7 @@ const jsonLd = {
                 const w = allWriters.find(w2 => w2.id === id);
                 const linkClass = w ? (w.nationality === '中国' ? 'cn-link' : 'en-link') : 'unknown-link';
                 return w
-                  ? <a href={`/writer/${id}.html`} class={`influence-link ${linkClass}`}>{w.name}</a>
+                  ? <a href={`${base}writer/${id}.html`} class={`influence-link ${linkClass}`}>{w.name}</a>
                   : <span class={`influence-link unknown-link`}>{id}</span>;
               })}
             </div>
@@ -131,7 +133,7 @@ const jsonLd = {
                 const w = allWriters.find(w2 => w2.id === id);
                 const linkClass = w ? (w.nationality === '中国' ? 'cn-link' : 'en-link') : 'unknown-link';
                 return w
-                  ? <a href={`/writer/${id}.html`} class={`influence-link ${linkClass}`}>{w.name}</a>
+                  ? <a href={`${base}writer/${id}.html`} class={`influence-link ${linkClass}`}>{w.name}</a>
                   : <span class={`influence-link unknown-link`}>{id}</span>;
               })}
             </div>
