@@ -1,0 +1,16 @@
+{
+  "name": "百位作家画廊",
+  "short_name": "作家画廊",
+  "description": "百位中外著名作家及其作品 - 文学探索之旅",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f2e7",
+  "theme_color": "#bf3a2a",
+  "icons": [
+    {
+      "src": "/images/seal-stamp.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

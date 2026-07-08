@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" preserveAspectRatio="none">
+  <!-- Horizontal brush stroke decoration -->
+  <defs>
+    <filter id="inkBlur"><feGaussianBlur stdDeviation="1.5"/></filter>
+  </defs>
+  <path d="M0,30 Q20,20 50,28 Q80,35 100,25 Q130,32 160,22 Q180,28 200,30"
+        stroke="#3a3528" stroke-width="3" fill="none" opacity="0.15" stroke-linecap="round" filter="url(#inkBlur)"/>
+  <path d="M10,35 Q40,25 70,33 Q100,38 130,27 Q160,35 190,28"
+        stroke="#c24a3a" stroke-width="1.5" fill="none" opacity="0.08" stroke-linecap="round"/>
+</svg>
