@@ -11,6 +11,8 @@ for (const [path, mod] of Object.entries(allQuotes)) {
   const slug = path.match(/writers\/([^\/]+)\/quotes\.json/)?.[1];
   if (slug) quotesMap[slug] = mod.default || mod;
 }
+
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 ---
 
 <BaseLayout title="我的收藏 - 百位作家画廊">
@@ -20,7 +22,7 @@ for (const [path, mod] of Object.entries(allQuotes)) {
 
     <div id="fav-list" class="fav-list"></div>
     <div id="fav-empty" class="fav-empty-state">
-      还没有收藏任何作家，去<a href={import.meta.env.BASE_URL} style="color:var(--c-accent);">首页</a>探索吧！
+      还没有收藏任何作家，去<a href={base} style="color:var(--c-accent);">首页</a>探索吧！
     </div>
   </div>
 
@@ -28,7 +30,7 @@ for (const [path, mod] of Object.entries(allQuotes)) {
     const favsData = {STATIC_WRITERS: JSON.stringify(writers), STATIC_QUOTES: JSON.stringify(quotesMap)};
   </script>
 
-  <script define:vars={{ writersData: JSON.stringify(writers), quotesData: JSON.stringify(quotesMap), baseUrl: import.meta.env.BASE_URL }}>
+  <script define:vars={{ writersData: JSON.stringify(writers), quotesData: JSON.stringify(quotesMap), baseUrl: base }}>
     function renderFavorites() {
       const favs = JSON.parse(localStorage.getItem('writerFavorites') || '[]');
       const writers = JSON.parse(writersData);

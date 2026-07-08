@@ -142,7 +142,7 @@
 <script setup>
 import { ref, computed } from 'vue';
 
-const baseUrl = import.meta.env.BASE_URL;
+const baseUrl = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 
 const props = defineProps({
   events: String,

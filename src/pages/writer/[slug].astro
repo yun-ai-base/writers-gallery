@@ -80,7 +80,7 @@ const jsonLd = {
   "knowsAbout": meta.tags?.join(', ')
 };
 
-const base = import.meta.env.BASE_URL;
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 ---
 
 <BaseLayout title={`${meta.name} - 百位作家画廊`} jsonLd={JSON.stringify(jsonLd)}>

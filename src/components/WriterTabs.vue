@@ -112,7 +112,7 @@
 import { ref, computed, onMounted } from 'vue';
 import QuoteCardGenerator from './QuoteCardGenerator.vue';
 
-const baseUrl = import.meta.env.BASE_URL;
+const baseUrl = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 
 const props = defineProps({
   biographyHtml: String,

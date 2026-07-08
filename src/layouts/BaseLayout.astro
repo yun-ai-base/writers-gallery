@@ -3,7 +3,7 @@ import '../styles/global.css';
 
 const title = Astro.props.title || '百位作家画廊';
 const jsonLd = Astro.props.jsonLd || '';
-const base = import.meta.env.BASE_URL;
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 
 const navLinks = [
   { label: '首页', href: base, icon: '🏠' },
@@ -32,6 +32,9 @@ const currentPath = Astro.url.pathname;
   <!-- PWA -->
   <link rel="manifest" href={base + 'manifest.json'} />
   <link rel="icon" type="image/svg+xml" href={base + 'images/seal-stamp.svg'} />
+
+  <!-- Twin Universe -->
+  <link rel="stylesheet" href="https://yun-ai-base.github.io/psychscope/twin-universe.css" />
 
   <!-- JSON-LD -->
   {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
@@ -73,6 +76,13 @@ const currentPath = Astro.url.pathname;
     ))}
   </nav>
 
+  <!-- Twin Universe -->
+  <section class="section" id="twin-universe" style="padding:60px 20px;max-width:1200px;margin:0 auto">
+    <h2 class="section-title">🧬 孪生宇宙</h2>
+    <p class="section-subtitle">我的其他项目 · 点击跳转探索</p>
+    <div class="twin-container" id="twin-container"></div>
+  </section>
+
   <footer class="site-footer">
     <div class="footer-seal"></div>
     百位作家画廊 · 一百位中外著名作家及其作品
@@ -105,5 +115,6 @@ const currentPath = Astro.url.pathname;
       }
     });
   </script>
+  <script src="https://yun-ai-base.github.io/psychscope/twin-universe.js" data-project="writers-gallery"></script>
 </body>
 </html>
